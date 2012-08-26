@@ -30,6 +30,21 @@ function getButtonImage($button) {
 	}
 }
 
+function getButtonUrl($button) {
+	
+	if ($button == "home") {
+		return  Yii::app()->request->baseUrl.'/site/index';
+	} else if ($button == "biography") {
+		return  Yii::app()->request->baseUrl.'/site/biography';
+	} else if ($button == "services") {
+		return  Yii::app()->request->baseUrl.'/site/services';
+	} else if ($button == "portfolio") {
+		return  Yii::app()->request->baseUrl.'/site/portfolio';
+	} else if ($button == "contact") {
+		return  Yii::app()->request->baseUrl.'/site/contact';
+	}
+}
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -59,15 +74,15 @@ function getButtonImage($button) {
 		<div id="mainmenu">
 			<ul>
 				<li>
-					<a href="<?php echo Yii::app()->request->baseUrl;?>/site/index" ><img src="<?php echo getButtonImage('home'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('home'); ?>" ><img src="<?php echo getButtonImage('home'); ?>" /></a>
 				</li><li>
-					<a href="" ><img src="<?php echo getButtonImage('biography'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('biography'); ?>" ><img src="<?php echo getButtonImage('biography'); ?>" /></a>
 				</li><li>
-					<a href="" ><img src="<?php echo getButtonImage('services'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('services'); ?>" ><img src="<?php echo getButtonImage('services'); ?>" /></a>
 				</li><li>
-					<a href="" ><img src="<?php echo getButtonImage('portfolio'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('portfolio'); ?>" ><img src="<?php echo getButtonImage('portfolio'); ?>" /></a>
 				</li><li>
-					<a href="<?php echo Yii::app()->request->baseUrl;?>/site/contact" ><img src="<?php echo getButtonImage('contact'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('contact'); ?>" ><img src="<?php echo getButtonImage('contact'); ?>" /></a>
 				</li>	
 			</ul>
 		</div><!-- mainmenu -->
