@@ -1,0 +1,711 @@
+2012/08/26 16:00:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abot".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('abot')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/abot
+---
+2012/08/26 16:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/about
+---
+2012/08/26 16:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('about')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('about')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/about')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/about
+---
+2012/08/26 16:00:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('contact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/contact
+---
+2012/08/26 17:14:57 [error] [php] Object of class CInlineAction could not be converted to string (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\layouts\main.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(207): CContentDecorator->run()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(301): SiteController->endWidget()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(785): SiteController->renderFile()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\layouts\main.php (4)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/08/26 17:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/bio_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/services_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/portfolio_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/home_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/home_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/contact_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/bio_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/services_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/contact_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Buttons/portfolio_btn_.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Buttons/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactbio...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactser...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactcon...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactportfoli...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactportfoli...')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactpor...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactbio...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactcon...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactser...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('contactportfoli...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('contactportfoli...')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contactpor...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/contactportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/08/26 17:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexbio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexbio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexbio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexbio/G...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexbio/GitHub/InLightDevelopment/images/Buttons/bio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexportfolio".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexportfolio')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexportfolio')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexportf...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexportfolio/GitHub/InLightDevelopment/images/Buttons/portfolio_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexservices".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexservices')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexservices')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexservi...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexservices/GitHub/InLightDevelopment/images/Buttons/services_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/08/26 17:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexcontact".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('indexcontact')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('indexcontact')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/indexconta...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/indexcontact/GitHub/InLightDevelopment/images/Buttons/contact_btn_.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---

@@ -4,22 +4,21 @@ body
 	padding: 0;
 	color: #555;
 	font: normal 10pt Arial,Helvetica,sans-serif;
-	background: #EFEFEF;
+	background: #4e4034;
 }
 
 #page
 {
-	margin-top: 5px;
 	margin-bottom: 5px;
-	background: white;
-	border: 1px solid #C9E0ED;
+	background: #9f978e;
 }
 
 #header
 {
+	position: relative;
 	margin: 0;
 	padding: 0;
-	border-top: 3px solid #C9E0ED;
+	height: 110px;
 }
 
 #content
@@ -43,34 +42,34 @@ body
 
 #logo
 {
-	padding: 10px 20px;
-	font-size: 200%;
+	float: left;
 }
 
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+	float: right;
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 20px;
+	right: 0px;
+	margin-right: 20px;
 }
 
 #mainmenu ul
 {
-	padding:6px 20px 5px 20px;
+	padding:0px;
 	margin:0px;
 }
 
 #mainmenu ul li
 {
-	display: inline;
+	display: inline-block;
 }
 
-#mainmenu ul li a
+#mainmenu ul li a img
 {
-	color:#ffffff;
-	background-color:transparent;
-	font-size:12px;
-	font-weight:bold;
-	text-decoration:none;
-	padding:5px 8px;
+	padding:0px;
+	margin:0px;
 }
 
 #mainmenu ul li a:hover, #mainmenu ul li.active a
