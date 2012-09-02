@@ -16,7 +16,15 @@ function goBack() {
 		$image_url = document.getElementById($temp_num).value;
 		document.getElementById('image').src = $image_url;
 		current_num = $temp_num;
-	}	
+		
+	} else {
+		
+		$size = document.getElementById('size').value;	
+		$temp_num = $size - 1;
+		$image_url = document.getElementById($temp_num).value;
+		document.getElementById('image').src = $image_url;
+		current_num = $temp_num;
+	}
 }
 
 function goForward() {
@@ -26,6 +34,13 @@ function goForward() {
 	
 	if ($temp_num < $size) {
 		
+		$image_url = document.getElementById($temp_num).value;
+		document.getElementById('image').src = $image_url;
+		current_num = $temp_num;
+		
+	} else {
+		
+		$temp_num = 0;
 		$image_url = document.getElementById($temp_num).value;
 		document.getElementById('image').src = $image_url;
 		current_num = $temp_num;

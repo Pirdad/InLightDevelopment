@@ -9,5 +9,3 @@ $this->breadcrumbs=array(
 <h1>Portfolio</h1>
 
 This is Portfolio
-
-<?php $this->widget('ext.sample.Sample'); ?>
