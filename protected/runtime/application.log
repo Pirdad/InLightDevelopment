@@ -1051,3 +1051,704 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/GitHub/InLightDevelopment/site/pages&view=about
 ---
+2012/09/02 09:41:28 [error] [php] Missing argument 2 for CClientScript::registerScript(), called in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php on line 9 and defined (C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CClientScript.php:619)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): SiteController->createWidget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(24): SiteController->widget()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (9)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (24)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/09/02 09:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/imageslider.css".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('css/imageslider...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/css/imageslider.css
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:15:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/css/imageslider.css".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/css/imageslider.css
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/css/imageslider.css".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/css/imageslider.css
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/css/imageslider.css".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/css/imageslider.css
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/css/imageslider.css".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/css/imageslider.css
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/css/imageslider.css".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/css/imageslider.css
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/css/imageslider.css".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/css/imageslider.css
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/imageslider.js".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/imageslider.js
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/imageslider.js".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/imageslider.js
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/imageslider.js".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/imageslider.js
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/imageslider.js".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/imageslider.js
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/imageslider.js".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/imageslider.js
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/imageslider.js".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/imageslider.js
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 10:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ea5adfbc/imageslider.js".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ea5adfbc...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/ea5adfbc/imageslider.js
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/02 12:14:26 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:18 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:19 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:19 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:20 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:20 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:20 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:20 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:26:42 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:27:03 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:27:07 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:27:08 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:27:09 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(26): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:27:50 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:27:50 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.0" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('0', 'images')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:34:56 [error] [exception.CException] exception 'CException' with message 'CClientScript and its behaviors do not have a method or closure named "registerClientScript".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerClientS...', Array)
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(16): CClientScript->registerClientScript('ImageSlider', 'alert('Pirdad')...')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(174): ImageSlider->run()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:39:29 [error] [php] array_values() expects parameter 1 to be array, null given (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): SiteController->widget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (15)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (27)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/09/02 12:40:31 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.$images" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('$images', Array)
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:40:32 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.$images" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWidgetFactory.php(162): CComponent->__set('$images', Array)
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'ext.imageslider...', Array)
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(173): CBaseController->createWidget('ext.imageslider...', Array)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): CBaseController->widget('ext.imageslider...', Array)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/biography
+---
+2012/09/02 12:41:21 [error] [php] array_values() expects parameter 1 to be array, null given (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): SiteController->widget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (15)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (27)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/09/02 12:41:57 [error] [php] array_values() expects parameter 1 to be array, null given (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): SiteController->widget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (15)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (27)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/09/02 12:41:58 [error] [php] array_values() expects parameter 1 to be array, null given (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): SiteController->widget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (15)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (27)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/09/02 12:41:58 [error] [php] array_values() expects parameter 1 to be array, null given (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): SiteController->widget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (15)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (27)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/09/02 12:41:58 [error] [php] array_values() expects parameter 1 to be array, null given (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): SiteController->widget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (15)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (27)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+2012/09/02 12:41:58 [error] [php] array_values() expects parameter 1 to be array, null given (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(27): SiteController->widget()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php (15)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (27)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
