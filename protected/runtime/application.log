@@ -1798,3 +1798,144 @@ Stack trace:
 REQUEST_URI=/GitHub/InLightDevelopment/site/portfolio
 HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
 ---
+2012/09/03 02:25:02 [error] [php] include(ImageSlider.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\GitHub\InLightDevelopment\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(31): spl_autoload_call()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php (31)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/09/03 02:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:34:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[1]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[1]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[1]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[1]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[1]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[2]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[2]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[2]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[2]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[2]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[1]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[1]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[1]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[1]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[1]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:35:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/03 02:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Array[0]".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('Array[0]')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('Array[0]')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Array[0]')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
