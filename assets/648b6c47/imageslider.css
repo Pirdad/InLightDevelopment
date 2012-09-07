@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+#img_slider_back_btn {
+	
+}
+
+#img_slider_forward_btn {
+	
+}
+
+#img_slider_image_holder {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background-color: silver;
+	text-align: center;
+	line-height: 300px;
+	size: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.slider_button {
+	position: relative;
+	width: 80px;
+	height: 300px;
+	background-color: gray;
+	color: silver;
+	line-height: 300px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+
+.unselectable_box {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;	
+}
