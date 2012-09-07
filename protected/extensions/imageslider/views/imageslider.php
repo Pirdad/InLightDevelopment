@@ -1,18 +1,17 @@
 <?php
 
-$images;
-
-for ($i=0; $i<count($images); $i++) {
+for ($i=0; $i<count($this->images); $i++) {
 	
-	echo "<input type='hidden' id='$i' value='$images[$i]' />";
-	$size = count($images);
-	echo "<input type='hidden' id='size' value='$size' />";
+	$img_url = $this->images[$i];
+	echo "<input type='hidden' id='$i' value='$img_url' />";
 }
+$size = count($this->images);
+echo "<input type='hidden' id='size' value='$size' />";
 
 ?>
 
-<div id="back_btn" onclick="goBack();" class="slider_button">Back</div>
+<div id="img_slider_back_btn" class="slider_button unselectable_box" style="background-image: <?php echo "url($this->back_button)" ?>;">Back</div>
 
-<div id="image_holder"><img id="image" alt="" src=""></div>
+<div id="img_slider_image_holder" class="unselectable_box" ></div>
 
-<div id="forward_btn" onclick="goForward();" class="slider_button">Forward</div>
+<div id="img_slider_forward_btn" class="slider_button unselectable_box" style="background-image: <?php echo "url($this->forward_button)" ?>;">Forward</div>
