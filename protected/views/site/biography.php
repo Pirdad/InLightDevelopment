@@ -8,4 +8,4 @@ $this->breadcrumbs=array(
 ?>
 <h1>Biography</h1>
 
-This is Biography Page
+<h4>This page is under construction and coming soon</h4>

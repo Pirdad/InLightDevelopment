@@ -37,7 +37,7 @@ $this->widget("ext.imageslider.ImageSlider", array(
 	ImageSlider::$FORWARD_BUTTON=>Yii::app()->baseUrl."/images/Home/Slider/right_btn.png"));
 
 ?>
-Github is really cool!
+
 
 <?php 
 //$css_path = Yii::app()->getClientScript()->getPackageBaseUrl("ext.imageslider");
