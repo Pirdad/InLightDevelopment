@@ -32,6 +32,8 @@ $this->widget("ext.imageslider.ImageSlider", array("images"=>$images));
 
 ?>
 
+Github is really cool!
+
 <?php 
 //$css_path = Yii::app()->getClientScript()->getPackageBaseUrl("ext.imageslider");
 //echo "package url: ".$css_path;
