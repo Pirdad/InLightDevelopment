@@ -1,16 +1,50 @@
 $(window).load(function() {
 
 	var JQUERY_POUND = "#";
-	var BACK_BUTTON = "img_slider_back_btn";
-	var FORWARD_BUTTON = "img_slider_forward_btn";
-	var IMAGE_CONTAINER = "img_slider_image_holder";
-	var IMAGE = "img_slider_image";
+	var IMG_SLIDER_ID = "img_slider_";
+	var BACK_BUTTON = IMG_SLIDER_ID + "back_btn";
+	var FORWARD_BUTTON = IMG_SLIDER_ID + "forward_btn";
+	var IMAGE_CONTAINER = IMG_SLIDER_ID + "image_holder";
+	var IMAGE = IMG_SLIDER_ID + "image";
 	
 	var current_num = 0;
-
-	//initially setting the first image to the first item
-	setCurrentImage();
 	
+
+	
+	initialSetup();
+	
+	// ================================ EVENT METHODS =============================================
+	// ============================================================================================
+	
+	function initialSetup() {
+		
+		setCurrentImage();
+		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward").value, 'right');
+		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back").value, 'left');
+	}
+	
+	// ============== ON HOVERS
+	$(JQUERY_POUND + FORWARD_BUTTON).hover
+	(function(){
+		
+		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward_hover").value, 'right');
+		
+	}, function(){
+		
+		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward").value, 'right');
+	});
+	
+	$(JQUERY_POUND + BACK_BUTTON).hover
+	(function(){
+		
+		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back_hover").value, 'left');
+		
+	}, function(){
+		
+		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back").value, 'left');
+	});
+	
+	// ============ ON CLICKS
 	$(JQUERY_POUND + FORWARD_BUTTON).click(function() {
 
 		goForward();
@@ -25,36 +59,43 @@ $(window).load(function() {
 
 		goBack();
 	});
+	
+	
 
+	
+	// ============================ HELPING METHODS =======================================
+	// ====================================================================================
+	
+	function changeBg(element_id, img_url, background_position) {
+		
+		$(JQUERY_POUND + element_id).css('background-image', 'url("'+img_url+'")');
+		$(JQUERY_POUND + element_id).css('background-repeat', 'no-repeat');
+		$(JQUERY_POUND + element_id).css('background-position', background_position);
+	}
+	
 	function goBack() {
 
 		current_num = current_num -1;
-
 		if (current_num < 0) {
-
-			$size = document.getElementById('size').value;	
+			$size = document.getElementById(IMG_SLIDER_ID + 'size').value;	
 			current_num = $size - 1;
 		}
-		
 		setCurrentImage();
 	}
 
 	function goForward() {
 
-		$size = document.getElementById('size').value;	
+		$size = document.getElementById(IMG_SLIDER_ID + 'size').value;	
 		current_num = current_num +1;
-
 		if (current_num >= $size) {
-
 			current_num = 0;
 		}
-		
 		setCurrentImage();
 	}
 	
 	function setCurrentImage() {
 		
-		image_url = document.getElementById(current_num).value;
+		image_url = document.getElementById(IMG_SLIDER_ID + current_num).value;
 		$(JQUERY_POUND + IMAGE_CONTAINER).html("<img id='" + IMAGE + "' src='" + image_url + "' />");
 		$(JQUERY_POUND + IMAGE).width('auto').height('auto').css('display', 'none');
 		$(JQUERY_POUND + IMAGE).bind('load', function() {

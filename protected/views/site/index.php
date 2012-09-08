@@ -34,7 +34,10 @@ $images = array(
 $this->widget("ext.imageslider.ImageSlider", array(
 	ImageSlider::$IMAGES=>$images,
 	ImageSlider::$BACK_BUTTON=>Yii::app()->baseUrl."/images/Home/Slider/left_btn.png",
-	ImageSlider::$FORWARD_BUTTON=>Yii::app()->baseUrl."/images/Home/Slider/right_btn.png"));
+	ImageSlider::$BACK_BUTTON_HOVER=>Yii::app()->baseUrl."/images/Home/Slider/left_btn_selected.png",
+	ImageSlider::$FORWARD_BUTTON=>Yii::app()->baseUrl."/images/Home/Slider/right_btn.png",
+	ImageSlider::$FORWARD_BUTTON_HOVER=>Yii::app()->baseUrl."/images/Home/Slider/right_btn_selected.png"));
+	
 
 ?>
 
