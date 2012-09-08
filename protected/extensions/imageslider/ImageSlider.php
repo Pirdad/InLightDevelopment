@@ -3,10 +3,14 @@
 class ImageSlider extends CWidget {
 
 	public static $IMAGES = "images";
+	
 	public static $BACK_BUTTON = "back_button";
 	public static $BACK_BUTTON_HOVER = "back_button_hover";
 	public static $FORWARD_BUTTON = "forward_button";
 	public static $FORWARD_BUTTON_HOVER = "forward_button_hover";
+	
+	public static $WIDTH = "forward_button_hover";
+	
 	
 	public $images;
 	public $back_button;
