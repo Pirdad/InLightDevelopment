@@ -38,6 +38,7 @@ $this->widget("ext.imageslider.ImageSlider", array(
 
 ?>
 
+This is a line of cow!
 
 <?php 
 //$css_path = Yii::app()->getClientScript()->getPackageBaseUrl("ext.imageslider");
