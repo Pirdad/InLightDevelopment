@@ -2,6 +2,7 @@ $(window).load(function() {
 
 	var JQUERY_POUND = "#";
 	var IMG_SLIDER_ID = "img_slider_";
+	var SLIDER_CONTAINER = IMG_SLIDER_ID + "container";
 	var BACK_BUTTON = IMG_SLIDER_ID + "back_btn";
 	var FORWARD_BUTTON = IMG_SLIDER_ID + "forward_btn";
 	var IMAGE_CONTAINER = IMG_SLIDER_ID + "image_holder";
@@ -18,6 +19,8 @@ $(window).load(function() {
 	
 	function initialSetup() {
 		
+		setSliderWidth();
+		setSliderHeight();
 		setCurrentImage();
 		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward").value, 'right');
 		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back").value, 'left');
@@ -66,6 +69,35 @@ $(window).load(function() {
 	// ============================ HELPING METHODS =======================================
 	// ====================================================================================
 	
+	function setSliderWidth() {
+		
+		overall_width = $(JQUERY_POUND + IMG_SLIDER_ID + "overall_width").val();
+		right_button_width = $(JQUERY_POUND + IMG_SLIDER_ID + "forward_width").val();
+		left_button_width = $(JQUERY_POUND + IMG_SLIDER_ID + "back_width").val();
+		
+		$(JQUERY_POUND + SLIDER_CONTAINER).css('width', overall_width);
+		$(JQUERY_POUND + FORWARD_BUTTON).css('width', right_button_width);
+		$(JQUERY_POUND + BACK_BUTTON).css('width', left_button_width);
+		
+		overall_width = $(JQUERY_POUND + SLIDER_CONTAINER).width();
+		right_button_width = $(JQUERY_POUND + FORWARD_BUTTON).width();
+		left_button_width = $(JQUERY_POUND + BACK_BUTTON).width();
+		
+		$(JQUERY_POUND + IMAGE_CONTAINER).width(overall_width - (left_button_width + right_button_width));
+	}
+	
+	function setSliderHeight() {
+		
+		overall_height = $(JQUERY_POUND + IMG_SLIDER_ID + "overall_height").val();
+		right_button_height = $(JQUERY_POUND + IMG_SLIDER_ID + "forward_height").val();
+		left_button_height = $(JQUERY_POUND + IMG_SLIDER_ID + "back_height").val();
+		
+		$(JQUERY_POUND + SLIDER_CONTAINER).css('height', overall_height);
+		$(JQUERY_POUND + IMAGE_CONTAINER).css('height', overall_height);
+		$(JQUERY_POUND + FORWARD_BUTTON).css('height', right_button_height);
+		$(JQUERY_POUND + BACK_BUTTON).css('height', left_button_height);
+	}
+	
 	function changeBg(element_id, img_url, background_position) {
 		
 		$(JQUERY_POUND + element_id).css('background-image', 'url("'+img_url+'")');
@@ -105,8 +137,10 @@ $(window).load(function() {
 			
 			img_width = $(JQUERY_POUND + IMAGE).width();
 			img_height = $(JQUERY_POUND + IMAGE).height();
-			
 			resizeVertically(img_container_height, img_height, img_width);
+			
+			img_width = $(JQUERY_POUND + IMAGE).width();
+			img_height = $(JQUERY_POUND + IMAGE).height();
 			resizeHorizontally(img_container_width, img_width, img_height);
 			centerVertically();
 			
