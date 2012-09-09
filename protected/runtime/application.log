@@ -1939,3 +1939,355 @@ Stack trace:
 REQUEST_URI=/GitHub/InLightDevelopment/site/Array[0]
 HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
 ---
+2012/09/08 18:55:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 18:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/left_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/left_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:02:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn_selected.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn_selected.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 19:02:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/458f6136/images/right_btn.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/458f6136...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/458f6136/images/right_btn.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/09/08 20:33:58 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.back_button" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\views\imageslider.php(13): CComponent->__get('back_button')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(131): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(38): CWidget->render('imageslider')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(174): ImageSlider->run()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(35): CBaseController->widget('ext.imageslider...', Array)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#17 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#18 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/09/08 20:34:50 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.back_button_hover_image" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\views\imageslider.php(14): CComponent->__get('back_button_hov...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(131): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(38): CWidget->render('imageslider')
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(174): ImageSlider->run()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(35): CBaseController->widget('ext.imageslider...', Array)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#17 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#18 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/09/08 20:35:47 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.back_button_hover" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(54): CComponent->__set('back_button_hov...', '/GitHub/InLight...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(44): ImageSlider->setupButtonVariables()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(35): ImageSlider->initializeVariables()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(174): ImageSlider->run()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(35): CBaseController->widget('ext.imageslider...', Array)
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/09/08 20:35:48 [error] [exception.CException] exception 'CException' with message 'Property "ImageSlider.back_button_hover" is not defined.' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(54): CComponent->__set('back_button_hov...', '/GitHub/InLight...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(44): ImageSlider->setupButtonVariables()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\extensions\imageslider\ImageSlider.php(35): ImageSlider->initializeVariables()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(174): ImageSlider->run()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\index.php(35): CBaseController->widget('ext.imageslider...', Array)
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(32): CController->render('index')
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('index')
+#15 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#16 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/index
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
