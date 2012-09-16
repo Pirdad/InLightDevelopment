@@ -42,8 +42,6 @@ class ImageSlider extends CWidget {
 		$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.imageslider.assets')); //USE THIS PRODUCTION
 		//$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.imageslider.assets'), false,1,YII_DEBUG); // USE THIS FOR DEBUGGING
 		Yii::app()->getClientScript()->registerCssFile($this->registered_assests_path."/imageslider.css");
-		Yii::app()->getClientScript()->registerScriptFile($this->registered_assests_path."/images");
-		Yii::app()->getClientScript()->registerScriptFile($this->registered_assests_path."/jquery.js");
 		Yii::app()->getClientScript()->registerScriptFile($this->registered_assests_path."/imageslider.js");
 	}
 
