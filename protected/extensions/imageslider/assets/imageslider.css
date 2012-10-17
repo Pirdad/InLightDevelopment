@@ -24,6 +24,12 @@
 	size: 50px;
 	display: inline-block;
 	float: left;
+	overflow: hidden;
+}
+
+#img_slider_image_holder img {
+	position: absolute;	
+	opacity: 0;
 }
 
 .slider_button {

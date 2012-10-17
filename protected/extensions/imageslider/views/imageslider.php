@@ -2,12 +2,6 @@
 
 $IMG_SLIDER_ID = "img_slider_";
 
-for ($i=0; $i<count($this->images); $i++) {
-	
-	$img_url = $this->images[$i];
-	echo "<input type='hidden' id='$IMG_SLIDER_ID$i' value='$img_url' />";
-}
-
 $size = count($this->images);
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."size' value='$size' />";
 
@@ -28,7 +22,16 @@ echo "<input type='hidden' id='".$IMG_SLIDER_ID."forward_height' value='$this->f
 <div id="img_slider_container">
 	<div id="img_slider_back_btn" class="slider_button unselectable_box" ></div>
 	
-	<div id="img_slider_image_holder" class="unselectable_box" ></div>
+	<div id="img_slider_image_holder" class="unselectable_box" >
+	
+	<?php 
+		for ($i=0; $i<count($this->images); $i++) {
+			
+			$img_url = $this->images[$i];
+			echo "<img id='".$IMG_SLIDER_ID."$i' src='$img_url' />";
+		}
+	?>
+	</div>
 	
 	<div id="img_slider_forward_btn" class="slider_button unselectable_box" ></div>
 </div>
