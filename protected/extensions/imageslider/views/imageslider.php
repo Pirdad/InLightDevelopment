@@ -10,6 +10,13 @@ echo "<input type='hidden' id='".$IMG_SLIDER_ID."back_hover' value='$this->back_
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."forward' value='$this->forward_button_image' />";
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."forward_hover' value='$this->forward_button_hover_image' />";
 
+echo "<input type='hidden' id='".$IMG_SLIDER_ID."image_holder_background_color' value='$this->image_container_background_color' />";
+echo "<input type='hidden' id='".$IMG_SLIDER_ID."back_btn_background_color' value='$this->back_button_background_color' />";
+echo "<input type='hidden' id='".$IMG_SLIDER_ID."forward_btn_background_color' value='$this->forward_button_background_color' />";
+
+echo "<input type='hidden' id='".$IMG_SLIDER_ID."border_color' value='$this->border_color' />";
+echo "<input type='hidden' id='".$IMG_SLIDER_ID."border_size' value='$this->border_size' />";
+
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."overall_width' value='$this->overall_width' />";
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."overall_height' value='$this->overall_height' />";
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."back_width' value='$this->back_button_width' />";

@@ -68,7 +68,7 @@ function getButtonUrl($button) {
 
 <body>
 
-<div class="container" id="page">
+<div class="container over_top_shadow" id="page">
 
 	<div id="header">
 		<div id="logo"><img src="<?php echo Yii::app()->request->baseUrl;?>/images/inLightDevelopment.png" /></div>

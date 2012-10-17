@@ -10,10 +10,16 @@ $(window).load(function() {
 
 	var JQUERY_POUND = "#";
 	var IMG_SLIDER_ID = "img_slider_";
+	
 	var SLIDER_CONTAINER = IMG_SLIDER_ID + "container";
 	var BACK_BUTTON = IMG_SLIDER_ID + "back_btn";
 	var FORWARD_BUTTON = IMG_SLIDER_ID + "forward_btn";
 	var IMAGE_CONTAINER = IMG_SLIDER_ID + "image_holder";
+	
+	var BACKGROUND_COLOR = "_background_color";
+	var BORDER_COLOR = IMG_SLIDER_ID + "border_color";
+	var BORDER_SIZE = IMG_SLIDER_ID + "border_size";
+	
 	var IMAGE = IMG_SLIDER_ID + "image";
 
 	var current_num = -1;
@@ -38,6 +44,13 @@ $(window).load(function() {
 
 		setupFirstImage();
 		setupSlideStateVariables();
+		
+		setupBorder(SLIDER_CONTAINER, $(JQUERY_POUND + BORDER_COLOR).val(), $(JQUERY_POUND + BORDER_SIZE).val());
+		
+		changeBgColor(FORWARD_BUTTON, $(JQUERY_POUND + FORWARD_BUTTON + BACKGROUND_COLOR).val());
+		changeBgColor(BACK_BUTTON, $(JQUERY_POUND  + BACK_BUTTON + BACKGROUND_COLOR).val());
+		changeBgColor(IMAGE_CONTAINER, $(JQUERY_POUND + IMAGE_CONTAINER + BACKGROUND_COLOR).val());
+		
 		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward").value, 'right');
 		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back").value, 'left');
 	}
@@ -166,6 +179,18 @@ $(window).load(function() {
 		$(JQUERY_POUND + BACK_BUTTON).css('height', left_button_height);
 	}
 
+	function changeBgColor(element_id, css_color) {
+		
+		$(JQUERY_POUND + element_id).css('background-color', css_color);
+	}
+	
+	function setupBorder(element_id, css_border_color, css_border_size) {
+		
+		$(JQUERY_POUND + element_id).css('border-color', css_border_color);
+		$(JQUERY_POUND + element_id).css('border-width', css_border_size);
+		$(JQUERY_POUND + element_id).css('border-style', "solid");
+	}
+	
 	function changeBg(element_id, img_url, background_position) {
 
 		$(JQUERY_POUND + element_id).css('background-image', 'url("'+img_url+'")');

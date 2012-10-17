@@ -11,6 +11,13 @@ body
 {
 	margin-bottom: 5px;
 	background: #9f978e;
+	
+}
+
+.over_top_shadow {
+  -moz-box-shadow:    0px 0px 8px 4px #1f1d1e;
+  -webkit-box-shadow: 0px 0px 8px 4px #1f1d1e;
+  box-shadow:         0px 0px 8px 4px #1f1d1e;
 }
 
 #header
@@ -23,7 +30,7 @@ body
 
 #content
 {
-    padding: 20px;
+    padding: 0px;
 }
 
 #sidebar
