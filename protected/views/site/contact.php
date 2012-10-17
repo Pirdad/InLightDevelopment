@@ -11,6 +11,8 @@ $this->breadcrumbs=array(
 
 <h1>Contact Us</h1>
 
+<h4>This page is under construction and coming soon</h4>
+
 <?php if(Yii::app()->user->hasFlash('contact')): ?>
 
 <div class="flash-success">
