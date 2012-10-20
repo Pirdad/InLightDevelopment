@@ -29,7 +29,8 @@ $images = array(
 		Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png",
 		Yii::app()->baseUrl."/images/Home/sample_aziz_reno.png", //Yii::app()->baseUrl."/images/Home/sample_aziz_reno.png',
 		Yii::app()->baseUrl."/images/Home/sample_inlight_dev.png",//Yii::app()->baseUrl."/images/Home/sample_inlight_dev.png',
-		Yii::app()->baseUrl."/images/inLightLogo.png");           //Yii::app()->baseUrl."/images/inLightLogo.png'
+		Yii::app()->baseUrl."/images/inLightLogo.png",          //Yii::app()->baseUrl."/images/inLightLogo.png'
+		Yii::app()->baseUrl."/images/Home/Features/coming_soon.png",);
 
 $this->widget("ext.imageslider.ImageSlider", array(
 	ImageSlider::$IMAGES => $images,
@@ -42,12 +43,21 @@ $this->widget("ext.imageslider.ImageSlider", array(
 	ImageSlider::$TIMER_VALUE => 5000
 ));
 
+$fancy_box_images = array(
+"<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png' ></div>",//"#data", array("id"=>"fancy-link"),
+"<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/aziz_reno.png' ></div>",//"#data1", array("id"=>"fancy-link"),
+"<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/inlightdev.png' ></div>",//"#data2", array("id"=>"fancy-link"),
+"<div class='image_cont'><img width= 165' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/webpage_display1.png' ></div>",//"#data3", array("id"=>"fancy-link"),
+"<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/coming_soon.png' ></div>",//"#data4", array("id"=>"fancy-link"),
+);
+
 echo "<div id='cantainer'>";
-echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png' ></div>","#data", array("id"=>"fancy-link"));
-echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/aziz_reno.png' ></div>","#data1", array("id"=>"fancy-link"));
-echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/inlightdev.png' ></div>","#data2", array("id"=>"fancy-link"));
-echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/webpage_display1.png' ></div>","#data3", array("id"=>"fancy-link"));
+for ($i = 0; $i < count($fancy_box_images);$i++)
+{
+	echo CHtml::link($fancy_box_images[$i],"#data", array("id"=>"fancy-link"));
+}
 echo "</div>";
+
 //put fancybox on page
 $this->widget('ext.fancybox.EFancyBox', array(
         'target'=>'a#fancy-link',
@@ -55,6 +65,7 @@ $this->widget('ext.fancybox.EFancyBox', array(
 
 
 ?>
+
 
 <div style="display:none">
 	<div id="data" >
@@ -71,6 +82,9 @@ $this->widget('ext.fancybox.EFancyBox', array(
 
 	<div id="data3" >
 		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Home/Features/webpage_display1.png'; ?>">
+	</div>
+	<div id="data4" >
+		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Home/Features/coming_soon.png'; ?>">
 	</div>
 </div>
 

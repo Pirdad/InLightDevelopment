@@ -13,8 +13,7 @@ body
 .image_cont{	
 	margin: 5px;
 	float: left;
-	border-style: solid;
-	border-width:2px;
+	border-style: solid; border-width:1px;
 	border-color:#393939;
 	}
 #page
