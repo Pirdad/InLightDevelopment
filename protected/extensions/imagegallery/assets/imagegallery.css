@@ -5,14 +5,20 @@
 	
 	}
 	.first
-	{		
+	{	/*	
 		border-width: 1px;
-		border-style: solid;
+		border-style: solid;*/
 		float: left;
-		width:225px;
-		height:130px;			
+		width:200px;
+		height:130px;	
+		margin-left: auto;
+		margin-right: auto;		
 	}
 	
-.second {
+#center {
 	background-color: white;
+	wieth:700px;
+	height: auto;
+	margin-left: 70px;
+	
 	}
