@@ -19,8 +19,7 @@ for ($i = 0; $i< $this->rows; $i++)
 			$img_url = $this->images[$img_ctr];
 			if (!empty($img_url)) {
 
-				echo "<img src=".$img_url.">";
-				//echo "aaaa";
+				echo "<img wiedth='150px' hieght='200px' src=".$img_url.">";
 				$img_ctr++;
 			}
 		}
