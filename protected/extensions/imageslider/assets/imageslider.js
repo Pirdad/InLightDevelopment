@@ -5,6 +5,7 @@ $(window).load(function() {
 	 * - in the imageslider.css - the image_slider_holder img tag's position must be set to absolute in order for
 	 * slide functionality to work. It can not be set to relative.
 	 * 
+	 * for changeBgColor(), always use RGB color strings and not color words such as gray, or black
 	 */
 
 
@@ -17,9 +18,21 @@ $(window).load(function() {
 	var IMAGE_CONTAINER = IMG_SLIDER_ID + "image_holder";
 	
 	var BACKGROUND_COLOR = "_background_color";
-	var BORDER_COLOR = IMG_SLIDER_ID + "border_color";
-	var BORDER_SIZE = IMG_SLIDER_ID + "border_size";
 	
+	var BORDER_COLOR_RIGHT = IMG_SLIDER_ID + "border_color_right";
+	var BORDER_COLOR_LEFT = IMG_SLIDER_ID + "border_color_left";
+	var BORDER_COLOR_TOP = IMG_SLIDER_ID + "border_color_top";
+	var BORDER_COLOR_BOTTOM = IMG_SLIDER_ID + "border_color_bottom";
+	
+	var BORDER_SIZE_RIGHT = IMG_SLIDER_ID + "border_size_right";
+	var BORDER_SIZE_LEFT = IMG_SLIDER_ID + "border_size_left";
+	var BORDER_SIZE_TOP = IMG_SLIDER_ID + "border_size_top";
+	var BORDER_SIZE_BOTTOM = IMG_SLIDER_ID + "border_size_bottom";
+	
+	var BACK_BUTTON_IMAGE = IMG_SLIDER_ID + "back_button_image";
+	var BACK_BUTTON_HOVER_IMAGE = IMG_SLIDER_ID + "back_button_hover_image";
+	var FORWARD_BUTTON_IMAGE = IMG_SLIDER_ID + "forward_button_image";
+	var FORWARD_BUTTON_HOVER_IMAGE = IMG_SLIDER_ID + "forward_button_hover_image";
 	var IMAGE = IMG_SLIDER_ID + "image";
 
 	var current_num = -1;
@@ -45,14 +58,17 @@ $(window).load(function() {
 		setupFirstImage();
 		setupSlideStateVariables();
 		
-		setupBorder(SLIDER_CONTAINER, $(JQUERY_POUND + BORDER_COLOR).val(), $(JQUERY_POUND + BORDER_SIZE).val());
+		setupBorder(SLIDER_CONTAINER, "left", $(JQUERY_POUND + BORDER_COLOR_LEFT).val(), $(JQUERY_POUND + BORDER_SIZE_LEFT).val());
+		setupBorder(SLIDER_CONTAINER, "right", $(JQUERY_POUND + BORDER_COLOR_RIGHT).val(), $(JQUERY_POUND + BORDER_SIZE_RIGHT).val());
+		setupBorder(SLIDER_CONTAINER, "top", $(JQUERY_POUND + BORDER_COLOR_TOP).val(), $(JQUERY_POUND + BORDER_SIZE_TOP).val());
+		setupBorder(SLIDER_CONTAINER, "bottom", $(JQUERY_POUND + BORDER_COLOR_BOTTOM).val(), $(JQUERY_POUND + BORDER_SIZE_BOTTOM).val());
 		
 		changeBgColor(FORWARD_BUTTON, $(JQUERY_POUND + FORWARD_BUTTON + BACKGROUND_COLOR).val());
 		changeBgColor(BACK_BUTTON, $(JQUERY_POUND  + BACK_BUTTON + BACKGROUND_COLOR).val());
 		changeBgColor(IMAGE_CONTAINER, $(JQUERY_POUND + IMAGE_CONTAINER + BACKGROUND_COLOR).val());
 		
-		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward").value, 'right');
-		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back").value, 'left');
+		changeBg(FORWARD_BUTTON, $(JQUERY_POUND + FORWARD_BUTTON_IMAGE).val(), 'right');
+		changeBg(BACK_BUTTON, $(JQUERY_POUND + BACK_BUTTON_IMAGE).val(), 'left');
 	}
 
 	function setupFirstImage() {
@@ -99,21 +115,21 @@ $(window).load(function() {
 	$(JQUERY_POUND + FORWARD_BUTTON).hover
 	(function(){
 
-		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward_hover").value, 'right');
+		changeBg(FORWARD_BUTTON, $(JQUERY_POUND + FORWARD_BUTTON_HOVER_IMAGE).val(), 'right');
 
 	}, function(){
 
-		changeBg(FORWARD_BUTTON, document.getElementById(IMG_SLIDER_ID + "forward").value, 'right');
+		changeBg(FORWARD_BUTTON, $(JQUERY_POUND + FORWARD_BUTTON_IMAGE).val(), 'right');
 	});
 
 	$(JQUERY_POUND + BACK_BUTTON).hover
 	(function(){
 
-		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back_hover").value, 'left');
+		changeBg(BACK_BUTTON, $(JQUERY_POUND + BACK_BUTTON_HOVER_IMAGE).val(), 'left');
 
 	}, function(){
 
-		changeBg(BACK_BUTTON, document.getElementById(IMG_SLIDER_ID + "back").value, 'left');
+		changeBg(BACK_BUTTON, $(JQUERY_POUND + BACK_BUTTON_IMAGE).val(), 'left');
 	});
 
 	// ============ ON CLICKS
@@ -155,7 +171,9 @@ $(window).load(function() {
 		overall_width = $(JQUERY_POUND + IMG_SLIDER_ID + "overall_width").val();
 		right_button_width = $(JQUERY_POUND + IMG_SLIDER_ID + "forward_width").val();
 		left_button_width = $(JQUERY_POUND + IMG_SLIDER_ID + "back_width").val();
-
+		border_width_right = parseInt($(JQUERY_POUND + BORDER_SIZE_RIGHT).val());
+		border_width_left = parseInt($(JQUERY_POUND + BORDER_SIZE_LEFT).val());
+		
 		$(JQUERY_POUND + SLIDER_CONTAINER).css('width', overall_width);
 		$(JQUERY_POUND + FORWARD_BUTTON).css('width', right_button_width);
 		$(JQUERY_POUND + BACK_BUTTON).css('width', left_button_width);
@@ -163,8 +181,8 @@ $(window).load(function() {
 		overall_width = $(JQUERY_POUND + SLIDER_CONTAINER).width();
 		right_button_width = $(JQUERY_POUND + FORWARD_BUTTON).width();
 		left_button_width = $(JQUERY_POUND + BACK_BUTTON).width();
-
-		$(JQUERY_POUND + IMAGE_CONTAINER).width(overall_width - (left_button_width + right_button_width));
+		
+		$(JQUERY_POUND + IMAGE_CONTAINER).width(overall_width - ((left_button_width + right_button_width) + (border_width_right + border_width_left)));
 	}
 
 	function setSliderHeight() {
@@ -181,14 +199,27 @@ $(window).load(function() {
 
 	function changeBgColor(element_id, css_color) {
 		
+		if (css_color.indexOf("#") == -1) {
+			css_color = "#" + css_color;
+		}
 		$(JQUERY_POUND + element_id).css('background-color', css_color);
 	}
 	
-	function setupBorder(element_id, css_border_color, css_border_size) {
+	function setupBorder(element_id, side, css_border_color, css_border_size) {
 		
-		$(JQUERY_POUND + element_id).css('border-color', css_border_color);
-		$(JQUERY_POUND + element_id).css('border-width', css_border_size);
-		$(JQUERY_POUND + element_id).css('border-style', "solid");
+		if (side) {
+			side = side + "-";
+		} else {
+			side = "";
+		}
+		
+		if (css_border_color.indexOf("#") == -1) {
+			css_border_color = "#" + css_border_color;
+		}
+		
+		$(JQUERY_POUND + element_id).css('border-' + side + 'color', css_border_color);
+		$(JQUERY_POUND + element_id).css('border-' + side + 'width', css_border_size + "px");
+		$(JQUERY_POUND + element_id).css('border-' + side + 'style', "solid");
 	}
 	
 	function changeBg(element_id, img_url, background_position) {

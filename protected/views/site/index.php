@@ -32,7 +32,14 @@ $images = array(
 		Yii::app()->baseUrl."/images/inLightLogo.png");
 
 $this->widget("ext.imageslider.ImageSlider", array(
-	ImageSlider::$IMAGES => $images));
+	ImageSlider::$IMAGES => $images,
+	ImageSlider::$BORDER_COLOR_TOP => "393939",
+	ImageSlider::$BORDER_SIZE_TOP => 4,
+	ImageSlider::$BORDER_COLOR_BOTTOM => "393939",
+	ImageSlider::$BORDER_SIZE_BOTTOM => 4,
+	ImageSlider::$BACK_BUTTON_BACKGROUND_COLOR => "393939",
+	ImageSlider::$FORWARD_BUTTON_BACKGROUND_COLOR => "393939"
+));
 	
 
 ?>
