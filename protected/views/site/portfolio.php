@@ -1,11 +1,16 @@
 <?php
-/* @var $this SiteController */
+Yii::import("ext.imagegallery.ImageGallery", true);
 
-$this->pageTitle=Yii::app()->name . ' - Portfolio';
-$this->breadcrumbs=array(
-	'Portfolio',
-);
-?>
-<h1>Portfolio</h1>
 
-<h4>This page is under construction and coming soon</h4>
+
+//Yii::import("ext.imageslider.ImageSlider", true);
+$images = array(
+		//Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png",
+		Yii::app()->baseUrl."/images/Home/sample_aziz_reno.png",
+		Yii::app()->baseUrl."/images/Home/sample_inlight_dev.png",
+		Yii::app()->baseUrl."/images/inLightLogo.png");
+
+$this->widget("ext.imagegallery.ImageGallery", array(
+	ImageGallery::$COLUMNS =>4, ImageGallery::$ROWS=>1, ImageGallery::$IMAGES=>$images));
+
+	?>
