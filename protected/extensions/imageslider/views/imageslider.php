@@ -31,6 +31,8 @@ echo "<input type='hidden' id='".$IMG_SLIDER_ID."back_height' value='$this->back
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."forward_width' value='$this->forward_button_width' />";
 echo "<input type='hidden' id='".$IMG_SLIDER_ID."forward_height' value='$this->forward_button_height' />";
 
+echo "<input type='hidden' id='".$IMG_SLIDER_ID.ImageSlider::$TIMER_VALUE."' value='$this->timer_val' />";
+
 ?>
 
 <div id="img_slider_container">

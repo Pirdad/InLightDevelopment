@@ -34,10 +34,14 @@ $(window).load(function() {
 	var FORWARD_BUTTON_IMAGE = IMG_SLIDER_ID + "forward_button_image";
 	var FORWARD_BUTTON_HOVER_IMAGE = IMG_SLIDER_ID + "forward_button_hover_image";
 	var IMAGE = IMG_SLIDER_ID + "image";
+	
+	var TIMER_VAL = IMG_SLIDER_ID + "timer_val";
 
 	var current_num = -1;
 	var prev_num = -1;
 	var next_num = -1;
+	var timeout_func;
+	var timer_val;
 
 	var left_btn_click_enabled = false;
 	var right_btn_click_enabled = false;
@@ -69,6 +73,19 @@ $(window).load(function() {
 		
 		changeBg(FORWARD_BUTTON, $(JQUERY_POUND + FORWARD_BUTTON_IMAGE).val(), 'right');
 		changeBg(BACK_BUTTON, $(JQUERY_POUND + BACK_BUTTON_IMAGE).val(), 'left');
+		
+		timer_val = $(JQUERY_POUND + TIMER_VAL).val();
+		initiateGoForwardTimeOut(timer_val);
+	}
+	
+	function initiateGoForwardTimeOut(timer) {
+		
+		
+		timeout_func = setTimeout(function() {
+			
+			goForward();
+		
+		},timer);
 	}
 
 	function setupFirstImage() {
@@ -231,6 +248,8 @@ $(window).load(function() {
 
 	function goBack() {
 
+		clearTimeout(timeout_func); //clears pending goForward() function if there's more than one
+		
 		size = $(JQUERY_POUND + IMG_SLIDER_ID + 'size').val();
 
 		slideRight();
@@ -245,12 +264,14 @@ $(window).load(function() {
 				prev_num = size - 1;
 			}
 		}
-		//resizeImage();
-
+		
+		initiateGoForwardTimeOut(timer_val);
 	}
 
 	function goForward() {
 
+		clearTimeout(timeout_func); //clears pending goForward() function if there's more than one
+		
 		size = $(JQUERY_POUND + IMG_SLIDER_ID + 'size').val();
 
 		slideLeft();
@@ -265,6 +286,8 @@ $(window).load(function() {
 				next_num = 0;
 			}
 		}
+		
+		initiateGoForwardTimeOut(timer_val);
 	}
 
 	function slideLeft() { // sliding the images from right to left, bringing the next image

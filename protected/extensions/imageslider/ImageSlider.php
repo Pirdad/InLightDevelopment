@@ -33,6 +33,8 @@ class ImageSlider extends CWidget {
 	public static $FORWARD_BUTTON_WIDTH = "forward_button_width";
 	public static $FORWARD_BUTTON_HEIGHT = "forward_button_height";
 	
+	public static $TIMER_VALUE = "timer_val";
+	
 	// =================== STATIC VARIABLES FOR PROPERTY VALUES
 	public static $WIDTH_MATCH_PARENT = "auto";
 	public static $HEIGHT_MATCH_PARENT = "auto";
@@ -70,6 +72,8 @@ class ImageSlider extends CWidget {
 	public $forward_button_width;
 	public $forward_button_height;
 	
+	public $timer_val;
+	
 
 	public function init() {
 
@@ -95,6 +99,12 @@ class ImageSlider extends CWidget {
 		$this->setupBorderVariables();
 		$this->setupWidthVariables();
 		$this->setupHeightVariables();
+		
+		if (empty($this->timer_val)) {
+			$this->timer_val = 3000;
+		} else {
+			if ($this->timer_val < 1000) $this->timer_val = 1000;
+		}
 	}
 	
 	public function setupButtonImageVariables() {
