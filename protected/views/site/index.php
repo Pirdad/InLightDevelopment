@@ -38,7 +38,8 @@ $this->widget("ext.imageslider.ImageSlider", array(
 	ImageSlider::$BORDER_COLOR_BOTTOM => "393939",
 	ImageSlider::$BORDER_SIZE_BOTTOM => 4,
 	ImageSlider::$BACK_BUTTON_BACKGROUND_COLOR => "393939",
-	ImageSlider::$FORWARD_BUTTON_BACKGROUND_COLOR => "393939"
+	ImageSlider::$FORWARD_BUTTON_BACKGROUND_COLOR => "393939",
+	ImageSlider::$TIMER_VALUE => 5000
 ));
 
 
