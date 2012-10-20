@@ -19,8 +19,6 @@ function getButtonImage($button) {
 	
 	if ($button == "home") {
 		return  Yii::app()->request->baseUrl.'/images/Buttons/home_btn'.getSelected($button).'.png';
-	} else if ($button == "biography") {
-		return  Yii::app()->request->baseUrl.'/images/Buttons/bio_btn'.getSelected($button).'.png';
 	} else if ($button == "services") {
 		return  Yii::app()->request->baseUrl.'/images/Buttons/services_btn'.getSelected($button).'.png';
 	} else if ($button == "portfolio") {
@@ -34,8 +32,6 @@ function getButtonUrl($button) {
 	
 	if ($button == "home") {
 		return  Yii::app()->request->baseUrl.'/site/index';
-	} else if ($button == "biography") {
-		return  Yii::app()->request->baseUrl.'/site/biography';
 	} else if ($button == "services") {
 		return  Yii::app()->request->baseUrl.'/site/services';
 	} else if ($button == "portfolio") {
@@ -76,8 +72,6 @@ function getButtonUrl($button) {
 			<ul>
 				<li>
 					<a href="<?php echo getButtonUrl('home'); ?>" ><img src="<?php echo getButtonImage('home'); ?>" /></a>
-				</li><li>
-					<a href="<?php echo getButtonUrl('biography'); ?>" ><img src="<?php echo getButtonImage('biography'); ?>" /></a>
 				</li><li>
 					<a href="<?php echo getButtonUrl('services'); ?>" ><img src="<?php echo getButtonImage('services'); ?>" /></a>
 				</li><li>
