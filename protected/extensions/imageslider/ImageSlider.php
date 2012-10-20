@@ -4,10 +4,18 @@ class ImageSlider extends CWidget {
 
 	// =================== STATIC VARIABLES FOR VARIABLE NAMES
 	public static $IMAGES = "images";
+	
+	public static $IMAGE_CONTAINER_BACKGROUND_COLOR = "image_container_background_color";
+	public static $BACK_BUTTON_BACKGROUND_COLOR = "back_button_background_color";
+	public static $FORWARD_BUTTON_BACKGROUND_COLOR = "forward_button_background_color";
+	
 	public static $BACK_BUTTON_IMAGE = "back_button_image";
 	public static $BACK_BUTTON_HOVER_IMAGE = "back_button_hover_image";
 	public static $FORWARD_BUTTON_IMAGE = "forward_button_image";
 	public static $FORWARD_BUTTON_HOVER_IMAGE = "forward_button_hover_image";
+	
+	public static $BORDER_COLOR = "border_color";
+	public static $BORDER_SIZE = "border_size";
 	
 	public static $OVERALL_WIDTH = "overall_width";
 	public static $OVERALL_HEIGHT = "overall_height";
@@ -24,10 +32,18 @@ class ImageSlider extends CWidget {
 	private $registered_assests_path;
 	
 	public $images;
+	
 	public $back_button_image;
 	public $back_button_hover_image;
 	public $forward_button_image;
 	public $forward_button_hover_image;
+	
+	public $image_container_background_color;
+	public $back_button_background_color;
+	public $forward_button_background_color;
+	
+	public $border_color;
+	public $border_size;
 	
 	public $overall_width;
 	public $overall_height;
@@ -57,6 +73,8 @@ class ImageSlider extends CWidget {
 	public function initializeVariables() {
 		
 		$this->setupButtonImageVariables();
+		$this->setupBackgroundColorVariables();
+		$this->setupBorderVariables();
 		$this->setupWidthVariables();
 		$this->setupHeightVariables();
 	}
@@ -74,6 +92,29 @@ class ImageSlider extends CWidget {
 		}
 		if (empty($this->forward_button_hover_image)) {
 			$this->forward_button_hover_image = $this->registered_assests_path."/images/right_btn_selected.png";
+		}
+	}
+	
+	public function setupBackgroundColorVariables() {
+		
+		if (empty($this->image_container_background_color)) {
+			$this->image_container_background_color = "silver";
+		}
+		if (empty($this->back_button_background_color)) {
+			$this->back_button_background_color = "gray";
+		}
+		if (empty($this->forward_button_background_color)) {
+			$this->forward_button_background_color = "gray";
+		}
+	}
+	
+	public function setupBorderVariables() {
+		
+		if (empty($this->border_color)) {
+			$this->border_color = "black";
+		}
+		if (empty($this->border_size)) {
+			$this->border_size = "0px";
 		}
 	}
 	

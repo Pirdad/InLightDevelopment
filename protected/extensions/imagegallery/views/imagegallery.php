@@ -1,14 +1,10 @@
 <?php
-echo <<<_END
-<table bordercolor="black" border="1" >
-
-_END;
 
 $img_ctr = 0;
 for ($i = 0; $i< $this->rows; $i++)
 {
 
-	echo "<div id='main'>";
+	echo "<div id='center'>";
 
 	for ($x = 0; $x< $this->columns;$x++)
 	{
@@ -30,17 +26,18 @@ for ($i = 0; $i< $this->rows; $i++)
 
 	echo "</div>";
 }
-echo <<<_END
 
-</table >
-
-_END;
 ?>
+<!--
+ <div id="main">
+ <table id="tbl">
+  <tr id="row">
+    <div class="first">firs</div>
+		<div class="first">second</div>
+		<div class="first">third</div>
+		<div class="first">fourth</div>
+ </tr>
+</table>
 
-<!--  <div id="main">
-	<div class="first">firs</div>
-	<div class="first">second</div>
-	<div class="first">third</div>
-	<div class="first">fourth</div>
-	<div class="first">fith</div>
+
 </div>-->
