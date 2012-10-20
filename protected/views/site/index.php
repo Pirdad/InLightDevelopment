@@ -41,4 +41,18 @@ $this->widget("ext.imageslider.ImageSlider", array(
 	ImageSlider::$FORWARD_BUTTON_BACKGROUND_COLOR => "393939"
 ));
 
-?>
+
+echo CHtml::link("<img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png' >","#data", array("id"=>"fancy-link")); 
+//put fancybox on page
+$this->widget('ext.fancybox.EFancyBox', array(
+        'target'=>'a#fancy-link',
+        'config'=>array(),));  
+        
+
+?> 
+
+<div style="display:none">
+<div id="data">
+<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Home/Features/free_website_promo.png'; ?>">
+</div>
+</div>

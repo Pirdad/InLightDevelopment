@@ -1,9 +1,6 @@
 <?php
 Yii::import("ext.imagegallery.ImageGallery", true);
 
-
-
-//Yii::import("ext.imageslider.ImageSlider", true);
 $images = array(
 		//Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png",
 		Yii::app()->baseUrl."/images/Home/sample_aziz_reno.png",
