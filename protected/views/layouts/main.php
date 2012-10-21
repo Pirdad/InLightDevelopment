@@ -57,12 +57,16 @@ function getButtonUrl($button) {
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/home.css" />
+	
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
-<body>
+<div style="position: fixed; width: 100%; z-index: -2000; ">
+	<img src="<?php echo Yii::app()->request->baseUrl;?>/images/Background/bg_wood.png" alt="" />
+</div>
 
 <div class="container over_top_shadow" id="page">
 
