@@ -25,7 +25,7 @@ class ScrollableBox extends CWidget {
 		
 		$(window).load(function() {
 		
-			alert('scrollable_box_main got loaded.');
+			//alert('scrollable_box_main got loaded.');
 			
 			var apple = new ScrollabeBox();
 			apple.create();
