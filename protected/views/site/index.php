@@ -55,16 +55,41 @@ $this->widget('ext.fancybox.EFancyBox', array(
 ?>
 
 <div id="cont_about_us">
-	<h3>About Us</h3>
-	<p>Lorem   ipsum   dolor   sit   amet,   consectet
-	adipiscing   elit. Maecenas    feugiat j  usto   
-	mauris   commodo    adipiscing. 
-	Fusce ac  diam  sit amet  sem vehicula moles
-	Integer aliquet viverra  metus  euismod temp
-	Proin consequat pellentesque dolor ut biben
-	Duis eget lectus quam. Duis id leo sed justo 
-	aliquet     volutpat.   Mauris    ut l  acus   ege.
+<?php 
+$services_link = Yii::app()->request->baseUrl.'/site/services';
+$header_content = 
+<<<HTML
+<h3>About Us</h3>
+HTML;
+$html_content = 
+<<<HTML
+	<p style="padding-right:5px;">
+	Welcome to Inlight Development. We at Inlight Dev Shop create great looking websites, interactive web-apps and provide small business services.
+	For more info, please visit our <a href="$services_link">services</a> page. 
+	
 	</p>
+HTML;
+
+Yii::import("ext.scrollablebox.ScrollableBox", true);
+$this->widget("ext.scrollablebox.ScrollableBox", array(
+	
+	ScrollableBox::$WIDGET_HEIGHT => 130,	
+	ScrollableBox::$SCROLLBAR_CONTAINER_WIDTH => 14,
+	ScrollableBox::$SCROLLBAR_WIDTH => 8,
+	ScrollableBox::$SCROLLBAR_COLOR => '#2d7198',
+	ScrollableBox::$HTML_HEADER_CONTENT => $header_content,
+	ScrollableBox::$HEADER_VISIBILITY => true,
+	ScrollableBox::$FOOTER_VISIBILITY => false,
+	ScrollableBox::$HTML_CONTENT => $html_content,
+	ScrollableBox::$SCROLLABLE_INDICATOR_WIDTH => 100,
+	ScrollableBox::$SCROLLABLE_INDICATOR_HEIGHT => 40,
+	ScrollableBox::$SCROLLABLE_INDICATOR_FONT_COLOR => '#A9C9DB',
+	ScrollableBox::$SCROLLABLE_INDICATOR_COLOR => 'rgba(45,113,152,0.7)',
+	ScrollableBox::$SCROLLABLE_INDICATOR_POSITION => ScrollableBox::$SCROLLABLE_INDICATOR_BOTTOM,
+));
+
+?>
+	
 </div>
 
 <div id="cont_samples">

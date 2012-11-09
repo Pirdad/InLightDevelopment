@@ -7,7 +7,7 @@ $SCROLLABLE_BOX = "scrollable_box_";
 <div id="<?php echo $SCROLLABLE_BOX; ?>main" >
 
 	<div id="<?php echo $SCROLLABLE_BOX; ?>title" >
-		Title
+		<?php echo $this->html_header_content; ?>
 	</div>
 	
 	<div id="<?php echo $SCROLLABLE_BOX; ?>content_container" >
