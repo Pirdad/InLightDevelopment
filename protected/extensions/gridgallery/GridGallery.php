@@ -70,6 +70,12 @@ class GridGallery extends CWidget {
 			grid_gallery_widget.setHeight($this->widget_height);
 			grid_gallery_widget.setWidth($this->widget_width);
 			
+			grid_gallery_widget.setNumColumns($this->num_columns);
+			grid_gallery_widget.setNumRows($this->num_rows);
+			
+			grid_gallery_widget.setCellSpacing($this->cell_spacing);
+			grid_gallery_widget.setEmptyText($this->empty_text);
+			
 			grid_gallery_widget.initialize();
 			grid_gallery_widget.create();	
 		});
