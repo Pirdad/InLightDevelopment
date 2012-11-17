@@ -56,6 +56,7 @@ $this->widget('ext.fancybox.EFancyBox', array(
 
 <div id="cont_about_us">
 <?php 
+Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl."/css/home.css");
 $services_link = Yii::app()->request->baseUrl.'/site/services';
 $header_content = 
 <<<HTML

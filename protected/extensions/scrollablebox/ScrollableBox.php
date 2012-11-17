@@ -3,6 +3,7 @@
 class ScrollableBox extends CWidget {
 
 	// =================== STATIC VARIABLES FOR VARIABLE NAMES
+	public static $WIDGET_UNIQUE_ID = "widget_unique_id";
 	public static $WIDGET_WIDTH = "widget_width";
 	public static $WIDGET_HEIGHT = "widget_height";
 	public static $WIDGET_COLOR = "widget_color";
@@ -50,6 +51,7 @@ class ScrollableBox extends CWidget {
 	// =================== VARIABLE NAMES
 	private $registered_assests_path;
 	
+	public $widget_unique_id;
 	public $widget_width;
 	public $widget_height;
 	public $widget_color;
@@ -89,13 +91,13 @@ class ScrollableBox extends CWidget {
 
 	public function init() {
 
-		$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets')); //USE THIS PRODUCTION
-		//$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets'), false,1,YII_DEBUG); // USE THIS FOR DEBUGGING
+		//$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets')); //USE THIS PRODUCTION
+		$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets'), false,1,YII_DEBUG); // USE THIS FOR DEBUGGING
 		Yii::app()->getClientScript()->registerCssFile($this->registered_assests_path."/scrollablebox.css");
 		Yii::app()->getClientScript()->registerScriptFile($this->registered_assests_path."/scrollablebox.js");
 		$load_script = $this->createScrollableBoxWidget();
 
-		Yii::app()->getClientScript()->registerScript('app_script', $load_script);
+		Yii::app()->getClientScript()->registerScript('app_script'.$this->widget_unique_id, $load_script);
 	}
 
 	public function run() {
@@ -111,43 +113,42 @@ class ScrollableBox extends CWidget {
 		
 		$(window).load(function() {
 			
-			var scrollable_widget = new ScrollableBox();
+			var scrollable_widget$this->widget_unique_id = new ScrollableBox('$this->widget_unique_id');
 			
-			scrollable_widget.setHeight($this->widget_height);
-			scrollable_widget.setWidth($this->widget_width);
-			scrollable_widget.setColor('$this->widget_color');
+			scrollable_widget$this->widget_unique_id.setHeight($this->widget_height);
+			scrollable_widget$this->widget_unique_id.setWidth($this->widget_width);
+			scrollable_widget$this->widget_unique_id.setColor('$this->widget_color');
 			
-			scrollable_widget.setScrollbarContainerWidth($this->scrollbar_container_width);
-			scrollable_widget.setScrollbarContainerColor('$this->scrollbar_container_color');
-//			scrollable_widget.setScrollbarContainerImage('so/so/img.img');
+			scrollable_widget$this->widget_unique_id.setScrollbarContainerWidth($this->scrollbar_container_width);
+			scrollable_widget$this->widget_unique_id.setScrollbarContainerColor('$this->scrollbar_container_color');
+//			scrollable_widget$this->widget_unique_id.setScrollbarContainerImage('so/so/img.img');
 			
-			scrollable_widget.setScrollbarWidth($this->scrollbar_width);
-			scrollable_widget.setScrollbarColor('$this->scrollbar_color');
-			scrollable_widget.setScrollbarVisibility(new Boolean($this->scrollbar_visibility));
+			scrollable_widget$this->widget_unique_id.setScrollbarWidth($this->scrollbar_width);
+			scrollable_widget$this->widget_unique_id.setScrollbarColor('$this->scrollbar_color');
+			scrollable_widget$this->widget_unique_id.setScrollbarVisibility(new Boolean($this->scrollbar_visibility));
 			
-			scrollable_widget.setHeaderHeight($this->header_height);
-			scrollable_widget.setHeaderColor('$this->header_color');
-			scrollable_widget.setHeaderVisibility(new Boolean($this->header_visibility));
+			scrollable_widget$this->widget_unique_id.setHeaderHeight($this->header_height);
+			scrollable_widget$this->widget_unique_id.setHeaderColor('$this->header_color');
+			scrollable_widget$this->widget_unique_id.setHeaderVisibility(new Boolean($this->header_visibility));
 			
-			scrollable_widget.setFooterHeight($this->footer_height);
-			scrollable_widget.setFooterColor('$this->footer_color');
-			scrollable_widget.setFooterVisibility(new Boolean($this->footer_visibility));
+			scrollable_widget$this->widget_unique_id.setFooterHeight($this->footer_height);
+			scrollable_widget$this->widget_unique_id.setFooterColor('$this->footer_color');
+			scrollable_widget$this->widget_unique_id.setFooterVisibility(new Boolean($this->footer_visibility));
 			
-			scrollable_widget.setContentContainerColor('$this->content_container_color');
-//			scrollable_widget.setContentContainerImage('so/so/img.img');
+			scrollable_widget$this->widget_unique_id.setContentContainerColor('$this->content_container_color');
+//			scrollable_widget$this->widget_unique_id.setContentContainerImage('so/so/img.img');
 
-			scrollable_widget.setContentColor('$this->content_color');
-//			scrollable_widget.setContentImage('so/so/img.img');
+			scrollable_widget$this->widget_unique_id.setContentColor('$this->content_color');
+//			scrollable_widget$this->widget_unique_id.setContentImage('so/so/img.img');
 
-			scrollable_widget.setScrollableIndicatorFontColor('$this->scrollable_indicator_font_color');
-			scrollable_widget.setScrollableIndicatorBackColor('$this->scrollable_indicator_color');
-			scrollable_widget.setScrollableIndicatorWidth($this->scrollable_indicator_width);
-			scrollable_widget.setScrollableIndicatorHeight($this->scrollable_indicator_height);
-			scrollable_widget.setScrollableIndicatorVisiblity(new Boolean($this->scrollable_indicator_visibility));
-			scrollable_widget.setScrollableIndicatorPosition('$this->scrollable_indicator_position');
+			scrollable_widget$this->widget_unique_id.setScrollableIndicatorFontColor('$this->scrollable_indicator_font_color');
+			scrollable_widget$this->widget_unique_id.setScrollableIndicatorBackColor('$this->scrollable_indicator_color');
+			scrollable_widget$this->widget_unique_id.setScrollableIndicatorWidth($this->scrollable_indicator_width);
+			scrollable_widget$this->widget_unique_id.setScrollableIndicatorHeight($this->scrollable_indicator_height);
+			scrollable_widget$this->widget_unique_id.setScrollableIndicatorVisiblity(new Boolean($this->scrollable_indicator_visibility));
+			scrollable_widget$this->widget_unique_id.setScrollableIndicatorPosition('$this->scrollable_indicator_position');
 			
-			scrollable_widget.initialize();
-			scrollable_widget.create();	
+			scrollable_widget$this->widget_unique_id.initialize();
 		});
 		
 JAVASCRIPT;
@@ -156,6 +157,7 @@ JAVASCRIPT;
 	
 	private function setInitialValues() {
 		
+		if (is_null($this->widget_unique_id)) $this->widget_unique_id = "";
 		if (is_null($this->scrollbar_visibility)) $this->scrollbar_visibility = true;
 		if (is_null($this->header_visibility)) $this->header_visibility = true;
 		if (is_null($this->footer_visibility)) $this->footer_visibility = true;
