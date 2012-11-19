@@ -57,24 +57,24 @@ $this->widget('ext.fancybox.EFancyBox', array(
 <div id="cont_about_us">
 	<h3>About Us</h3>
 	<p>Lorem   ipsum   dolor   sit   amet,   consectet
-	adipiscing   elit. Maecenas    feugiat j  usto   
-	mauris   commodo    adipiscing. 
+	adipiscing   elit. Maecenas    feugiat j  usto
+	mauris   commodo    adipiscing.
 	Fusce ac  diam  sit amet  sem vehicula moles
 	Integer aliquet viverra  metus  euismod temp
 	Proin consequat pellentesque dolor ut biben
-	Duis eget lectus quam. Duis id leo sed justo 
+	Duis eget lectus quam. Duis id leo sed justo
 	aliquet     volutpat.   Mauris    ut l  acus   ege.
 	</p>
 </div>
 
 <div id="cont_samples">
 	<h3>Samples</h3>
-	<?php 
-	
-		echo CHtml::link("<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Samples/thumb_aziz_reno.png' ></div>","#data1", array("id"=>"fancy-link"));
-		echo CHtml::link("<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Samples/thumb_inlight_dev.png' ></div>","#data2", array("id"=>"fancy-link"));
-		echo CHtml::link("<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Samples/thumb_eagleontario.png' ></div>","#data3", array("id"=>"fancy-link"));
-	
+	<?php
+
+		echo CHtml::link("<div class='image_cont'><img width='165' alt='web designed' src='".Yii::app()->baseUrl."/images/Samples/thumb_aziz_reno.png' ></div>","#data1", array("id"=>"fancy-link"));
+		echo CHtml::link("<div class='image_cont'><img width='165' alt='web designed' src='".Yii::app()->baseUrl."/images/Samples/thumb_inlight_dev.png' ></div>","#data2", array("id"=>"fancy-link"));
+		echo CHtml::link("<div class='image_cont'><img width='165' alt='web designed' src='".Yii::app()->baseUrl."/images/Samples/thumb_eagleontario.png' ></div>","#data3", array("id"=>"fancy-link"));
+
 	?>
 </div>
 
@@ -82,18 +82,17 @@ $this->widget('ext.fancybox.EFancyBox', array(
 <div style="display:none">
 
 	<div id="data1" >
-		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Samples/aziz_reno.png'; ?>">
+		<img alt="web designed" src="<?php echo Yii::app()->baseUrl.'/images/Samples/aziz_reno.png'; ?>">
 	</div>
 
 	<div id="data2" >
-		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Samples/inlightdev.png'; ?>">
+		<img alt="web designed" src="<?php echo Yii::app()->baseUrl.'/images/Samples/inlightdev.png'; ?>">
 	</div>
 
 	<div id="data3" >
-		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Samples/eagleontario.png'; ?>">
+		<img alt="web designed" src="<?php echo Yii::app()->baseUrl.'/images/Samples/eagleontario.png'; ?>">
 	</div>
 </div>
-
 
 
 

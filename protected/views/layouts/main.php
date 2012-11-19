@@ -1,8 +1,8 @@
-<?php /* @var $this Controller */ 
+<?php /* @var $this Controller */
 
 function getSelected($button) {
-	
-	if (Yii::app()->getController()->id == "site") 
+
+	if (Yii::app()->getController()->id == "site")
 	{
 		$page = Yii::app()->getController()->getAction()->id;
 		if ($button == $page) {
@@ -16,7 +16,7 @@ function getSelected($button) {
 }
 
 function getButtonImage($button) {
-	
+
 	if ($button == "home") {
 		return  Yii::app()->request->baseUrl.'/images/Buttons/home_btn'.getSelected($button).'.png';
 	} else if ($button == "services") {
@@ -29,7 +29,7 @@ function getButtonImage($button) {
 }
 
 function getButtonUrl($button) {
-	
+
 	if ($button == "home") {
 		return  Yii::app()->request->baseUrl.'/site/index';
 	} else if ($button == "services") {
@@ -58,20 +58,20 @@ function getButtonUrl($button) {
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/home.css" />
-	
+
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
-
-<div style="position: fixed; width: 100%; z-index: -2000; ">
-	<img src="<?php echo Yii::app()->request->baseUrl;?>/images/Background/bg_wood.png" alt="" />
+<body>
+<div id ="backgroud" style="position: fixed; width: 100%; z-index: -2000;">
+	<img src="<?php echo Yii::app()->request->baseUrl;?>/images/Background/bg_wood.png" alt="design" />
 </div>
 
 <div class="container over_top_shadow" id="page">
 
 	<div id="header">
-		<div id="logo"><img src="<?php echo Yii::app()->request->baseUrl;?>/images/inLightDevelopment.png" /></div>
+		<div id="logo"><img src="<?php echo Yii::app()->request->baseUrl;?>/images/inLightDevelopment.png" alt="website logo" /></div>
 		<div id="mainmenu">
 			<ul>
 				<li>
@@ -82,12 +82,12 @@ function getButtonUrl($button) {
 					<a href="<?php echo getButtonUrl('portfolio'); ?>" ><img src="<?php echo getButtonImage('portfolio'); ?>" /></a>
 				</li><li>
 					<a href="<?php echo getButtonUrl('contact'); ?>" ><img src="<?php echo getButtonImage('contact'); ?>" /></a>
-				</li>	
+				</li>
 			</ul>
 		</div><!-- mainmenu -->
 	</div><!-- header -->
 
-	
+
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 			'links'=>$this->breadcrumbs,
