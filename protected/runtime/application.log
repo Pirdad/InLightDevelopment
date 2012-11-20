@@ -952,3 +952,48 @@ Stack trace:
 REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
 HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
 ---
+2012/11/20 19:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png3".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png3
+HTTP_REFERER=http://localhost/github/inlightdevelopment/site/services
+---
+2012/11/20 19:52:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png3".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png3
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/20 19:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png3".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png3
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/11/20 19:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/11/20 20:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1images/Services/development.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('1images/Service...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/1images/Services/development.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---

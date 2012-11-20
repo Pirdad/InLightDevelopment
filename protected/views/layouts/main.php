@@ -98,6 +98,7 @@ function getButtonUrl($button) {
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
 </head>
+<body>
 
 <div style="position: fixed; width: 100%; z-index: -2000; ">
 
@@ -109,7 +110,7 @@ function getButtonUrl($button) {
 
 
 	<div id="header">
-		<div id="logo"><img src="<?php echo Yii::app()->request->baseUrl;?>/images/inLightDevelopment.png" /></div>
+		<div id="logo"><img src="<?php echo Yii::app()->request->baseUrl;?>/images/inLightDevelopment.png" alt="logImage"/></div>
 
 		<div id="mainmenu">
 			<ul>
