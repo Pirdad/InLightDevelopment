@@ -889,3 +889,66 @@ Stack trace:
 REQUEST_URI=/InLightDevelopment/assets/ae72970e/images
 HTTP_REFERER=http://localhost/InLightDevelopment/site/portfolio
 ---
+2012/11/19 21:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:16:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:31:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---

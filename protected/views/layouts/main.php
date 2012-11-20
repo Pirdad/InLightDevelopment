@@ -120,10 +120,10 @@ function getButtonUrl($button) {
 				</li><li>
 					<a href="<?php echo getButtonUrl('services'); ?>" ><img src="<?php echo getButtonImage('services'); ?>" /></a>
 
-				</li><li>
+				</li><!--<li>
 					<a href="<?php echo getButtonUrl('portfolio'); ?>" ><img src="<?php echo getButtonImage('portfolio'); ?>" /></a>
 
-				</li><li>
+				</li>  --><li>
 					<a href="<?php echo getButtonUrl('contact'); ?>" ><img src="<?php echo getButtonImage('contact'); ?>" /></a>
 
 				</li>

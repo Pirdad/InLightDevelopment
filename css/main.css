@@ -1,42 +1,41 @@
 body
 {
-	margin: 0;
-	padding: 0;
-	color: #555;
-	font: normal 10pt Arial,Helvetica,sans-serif;
-	background: #111111;
+margin: 0;
+
+padding: 0;;
+color: #555;
+
+font: normal 10pt Arial,Helvetica,sans-serif;
+
+background: #111111;
 }
-<<<<<<< HEAD
-#cantainer{
-	margin: 20px;
-	
-	}
-.image_cont{	
-	margin: 5px;
-	float: left;
-	border-style: solid; border-width:1px;
-	border-color:#393939;
-	}
-=======
->>>>>>> 3852f8718d67493a9dbd41194a8932eb419082e6
 #page
+
 {
-	margin-bottom: 5px;
-	background: #b0b0b0;
-	width: 1024px;
+padding:5px;
+margin-bottom: 5px;font-family:serif;
+background: #b0b0b0;
+
+width: 1024px;
 }
 .over_top_shadow {
-  -moz-box-shadow:    0px 0px 8px 4px #1f1d1e;
+
+  -moz-box-shadow: 0px 0px 8px 4px #1f1d1e;
+
   -webkit-box-shadow: 0px 0px 8px 4px #1f1d1e;
-  box-shadow:         0px 0px 8px 4px #1f1d1e;
+
+  box-shadow: 0px 0px 8px 4px #1f1d1e;
+
 }
 
 #header
 {
-	position: relative;
-	margin: 0;
-	padding: 0;
-	height: 110px;
+position: relative;
+margin: 0;
+
+padding: 0;
+height: 110px;
+
 }
 
 #content
@@ -46,48 +45,61 @@ body
 
 #footer
 {
-	padding: 10px;
-	margin: 10px 20px;
-	font-size: 0.8em;
-	text-align: center;
-	border-top: 1px solid #C9E0ED;
+padding: 10px;
+
+margin: 10px 20px;
+font-size: 0.8em;
+
+text-align: center;
+border-top: 1px solid #C9E0ED;
+
 }
 
 #logo
 {
-	float: left;
+float: left;
 }
 
 #mainmenu
+
 {
-	float: right;
-	position: absolute;
-	bottom: 0px;
-	margin-bottom: 20px;
-	right: 0px;
-	margin-right: 20px;
+float: right;
+position: absolute;
+
+bottom: 0px;
+margin-bottom: 20px;
+
+right: 0px;
+margin-right: 20px;
+
 }
 
 #mainmenu ul
 {
-	padding:0px;
-	margin:0px;
+
+padding:0px;
+margin:0px;
+
 }
 
 #mainmenu ul li
 {
-	display: inline-block;
+display: inline-block;
 }
 
 #mainmenu ul li a img
+
 {
-	padding:0px;
-	margin:0px;
+padding:0px;
+margin:0px;
+
 }
 
 #mainmenu ul li a:hover, #mainmenu ul li.active a
+
 {
-	color: #6399cd;
-	background-color:#EFF4FA;
-	text-decoration:none;
+color: #6399cd;
+background-color:#EFF4FA;
+
+text-decoration:none;
 }
