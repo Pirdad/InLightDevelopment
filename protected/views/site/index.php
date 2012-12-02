@@ -62,13 +62,13 @@ $this->widget("ext.imageslider.ImageSlider", array(
 
 
 //echo "<div id='cantainer'>";
-//echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png' ></div>","#data", array("id"=>"fancy-link"));
+//echo CHtml::link("<div class='image_cont'><img width='200' alt='Website application ' src='".Yii::app()->baseUrl."/images/Home/Features/free_website_promo.png' ></div>","#data", array("id"=>"fancy-link1"));
 
-//echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/aziz_reno.png' ></div>","#data1", array("id"=>"fancy-link"));
+//echo CHtml::link("<div class='image_cont'><img width='200' alt='Website application' src='".Yii::app()->baseUrl."/images/Home/Features/aziz_reno.png' ></div>","#data1", array("id"=>"fancy-link2"));
 
-//echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/inlightdev.png' ></div>","#data2", array("id"=>"fancy-link"));
+//echo CHtml::link("<div class='image_cont'><img width='200' alt='Website application' src='".Yii::app()->baseUrl."/images/Home/Features/inlightdev.png' ></div>","#data2", array("id"=>"fancy-link3"));
 
-//echo CHtml::link("<div class='image_cont'><img width='200' alt='ABc' src='".Yii::app()->baseUrl."/images/Home/Features/webpage_display1.png' ></div>","#data3", array("id"=>"fancy-link"));
+//echo CHtml::link("<div class='image_cont'><img width='200' alt='Website application' src='".Yii::app()->baseUrl."/images/Home/Features/webpage_display1.png' ></div>","#data3", array("id"=>"fancy-link4"));
 
 //echo "</div>";
 
@@ -144,11 +144,11 @@ $this->widget("ext.scrollablebox.ScrollableBox", array(
 
 	<?php
 
-		echo CHtml::link("<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Samples/thumb_aziz_reno.png' ></div>","#data1", array("id"=>"fancy-link"));
+		echo CHtml::link("<img class='image_cont' width='165' alt='Design Website Application' src='".Yii::app()->baseUrl."/images/Samples/thumb_aziz_reno.png' >","#data1", array("id"=>"fancy-link1"));
 
-		echo CHtml::link("<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Samples/thumb_inlight_dev.png' ></div>","#data2", array("id"=>"fancy-link"));
+		echo CHtml::link("<img class='image_cont' width='165' alt='Design Website Application' src='".Yii::app()->baseUrl."/images/Samples/thumb_inlight_dev.png' >","#data2", array("id"=>"fancy-link2"));
 
-		echo CHtml::link("<div class='image_cont'><img width='165' alt='ABc' src='".Yii::app()->baseUrl."/images/Samples/thumb_eagleontario.png' ></div>","#data3", array("id"=>"fancy-link"));
+		echo CHtml::link("<img class='image_cont' width='165' alt='Design Website Application' src='".Yii::app()->baseUrl."/images/Samples/thumb_eagleontario.png' >","#data3", array("id"=>"fancy-link3"));
 
 
 	?>
@@ -160,17 +160,17 @@ $this->widget("ext.scrollablebox.ScrollableBox", array(
 
 	<div id="data1" >
 
-		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Samples/aziz_reno.png'; ?>">
+		<img alt="Design Website Application" src="<?php echo Yii::app()->baseUrl.'/images/Samples/aziz_reno.png'; ?>" />
 
 	</div>
 
 	<div id="data2" >
-		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Samples/inlightdev.png'; ?>">
+		<img alt="Design Website Application" src="<?php echo Yii::app()->baseUrl.'/images/Samples/inlightdev.png'; ?>" />
 
 	</div>
 
 	<div id="data3" >
-		<img alt="ABc" src="<?php echo Yii::app()->baseUrl.'/images/Samples/eagleontario.png'; ?>">
+		<img alt="Design Website Application" src="<?php echo Yii::app()->baseUrl.'/images/Samples/eagleontario.png'; ?>" />
 
 	</div>
 </div>

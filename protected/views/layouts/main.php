@@ -124,7 +124,7 @@ function getButtonUrl($button) {
 
 <div style="position: fixed; width: 100%; z-index: -2000; ">
 
-	<img src="<?php echo Yii::app()->request->baseUrl;?>/images/Background/bg_wood.png" alt="" />
+	<img src="<?php echo Yii::app()->request->baseUrl;?>/images/Background/bg_wood.png" alt="background Website Application" />
 
 </div>
 
@@ -138,16 +138,16 @@ function getButtonUrl($button) {
 			<ul>
 				<li>
 
-					<a href="<?php echo getButtonUrl('home'); ?>" ><img src="<?php echo getButtonImage('home'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('home'); ?>" ><img src="<?php echo getButtonImage('home'); ?> " alt="Website application" /> </a>
 
 				</li><li>
-					<a href="<?php echo getButtonUrl('services'); ?>" ><img src="<?php echo getButtonImage('services'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('services'); ?>" ><img src="<?php echo getButtonImage('services'); ?> " alt="Website application" /> </a>
 
 				</li><!--<li>
-					<a href="<?php echo getButtonUrl('portfolio'); ?>" ><img src="<?php echo getButtonImage('portfolio'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('portfolio'); ?>" ><img src="<?php echo getButtonImage('portfolio'); ?> " alt="Website application" /> </a>
 
 				</li>  --><li>
-					<a href="<?php echo getButtonUrl('contact'); ?>" ><img src="<?php echo getButtonImage('contact'); ?>" /></a>
+					<a href="<?php echo getButtonUrl('contact'); ?>" ><img src="<?php echo getButtonImage('contact'); ?> " alt="Website application" /> </a>
 
 				</li>
 			</ul>
