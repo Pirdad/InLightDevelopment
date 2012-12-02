@@ -109,7 +109,7 @@ $header_design_content =
 HTML;
 $html_design_content =
 <<<HTML
-	<p style="padding-right:5px;"font-family:serif;>
+	<p style="padding-right:5px;font-family:serif;">
 
 	<img src='$img_development_url' alt='development' />
 
