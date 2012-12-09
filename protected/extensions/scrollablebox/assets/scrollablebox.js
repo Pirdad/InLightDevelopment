@@ -171,7 +171,7 @@ ScrollableBox.prototype.setScrollableIndicator = function() {
 		if (this.scrollable_indicator_hyt > $(CONTENT_DIV + this.widget_unique_id).height()) $(SCROLLABLE_INDICATOR + this.widget_unique_id).height($(CONTENT_DIV + this.widget_unique_id).height());
 		else $(SCROLLABLE_INDICATOR + this.widget_unique_id).height(this.scrollable_indicator_hyt);
 	}
-	alert('uaklldjfa');
+	
 	if (this.scrollable_indicator_vis == true) $(SCROLLABLE_INDICATOR + this.widget_unique_id).css('visibility', 'visible');
 	if (this.scrollable_indicator_vis == false) $(SCROLLABLE_INDICATOR + this.widget_unique_id).css('visibility', 'hidden');
 
