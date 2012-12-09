@@ -89,6 +89,12 @@ include_once 'menu.php';
 				<div class="menu_highlight_top"></div><div class="menu_highlight_bottom"></div>
 			</div>
 			<div id="page_border_gradient_right" class="page_border_gradient"></div>
+			
+			<div id="welcome_to_inlight" class="unselectable">
+				<img class="float_left unselectable" width="70px" src="<?php echo Yii::app()->request->baseUrl; ?>/images/inLightLogo.png" alt="Inlight Development Logo" />
+				<span class="welcome_text unselectable">Welcome to </span><span class="inlight_text unselectable">InLight</span>
+			</div>
+			
 		</div>
 	</div>
 </body>

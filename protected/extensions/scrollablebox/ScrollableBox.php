@@ -91,8 +91,8 @@ class ScrollableBox extends CWidget {
 
 	public function init() {
 
-		//$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets')); //USE THIS PRODUCTION
-		$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets'), false,1,YII_DEBUG); // USE THIS FOR DEBUGGING
+		$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets')); //USE THIS PRODUCTION
+		//$this->registered_assests_path = Yii::app()->assetManager->publish(Yii::getPathOfAlias('ext.scrollablebox.assets'), false,1,YII_DEBUG); // USE THIS FOR DEBUGGING
 		Yii::app()->getClientScript()->registerCssFile($this->registered_assests_path."/scrollablebox.css");
 		Yii::app()->getClientScript()->registerScriptFile($this->registered_assests_path."/scrollablebox.js");
 		$load_script = $this->createScrollableBoxWidget();

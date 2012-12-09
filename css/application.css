@@ -1,53 +1,83 @@
 @CHARSET "ISO-8859-1";
-#page_application_bg 
-{
-position: relative;
-background-color: #3e7400;
-width: 100%;
-height: 100%;
+
+#page_application_bg {
+	position: relative;
+	background-color: #3e7400;
+	width: 100%;
+	height: 100%;
 }
 
-#left_column
-{
-position: absolute;
-width: 54%;
-height: 100%;
-left: 0px;
-top: 0px;
-padding-top: 20px;
-padding-left: 40px;	
+#left_column {
+	position: absolute;
+	width: 54%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	padding-top: 20px;
+	padding-left: 40px;
 }
 
-#right_column
-{
-position: absolute;
-width: 46%;
-height: 100%;
-right: 0px;
-top: 24px;
-padding: 1px;
-color: #c5c5c5;
-font-family: Tahoma;
-font-size: 12pt;
+#right_column {
+	position: absolute;
+	width: 46%;
+	height: 100%;
+	right: 0px;
+	top: 24px;
+	padding: 1px;
+	color: #c5c5c5;
+	font-family: Tahoma;
+	font-size: 12pt;
 }
 
-#article_android
-{
-padding-right: 20px;
-padding-bottom: 20px;
+#article_android {
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
 
-h1 
-{
-font-family: Letter Gothic Std;
-font-size: 24pt;
-color: #a4ca39;
+h1 {
+	font-family: Letter Gothic Std;
+	font-size: 24pt;
+	color: #a4ca39;
 }
 
-#img_android
-{
-position: relative;
-width: 157px;
-top: 50px;
-left: 100px;
+#img_android {
+	position: relative;
+	width: 157px;
+	top: 0px;
+	left: 50px;
+}
+
+h4 {
+	font-family: Letter Gothic Std;
+	font-size: 16pt;
+	color: #a4ca39;
+}
+
+a:link {
+	color: #a4ca39;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #a4ca39;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #a4ca39;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #a4ca39;
+	text-decoration: underline;
+}
+
+img.floatLeft { 
+    float: left; 
+    margin-right: 20px;
+}
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
 }

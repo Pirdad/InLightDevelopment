@@ -1114,3 +1114,59 @@ Stack trace:
 REQUEST_URI=/GitHub/InLightDevelopment/assets/7a27324d/images
 HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
 ---
+2012/12/09 13:24:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "echo Yii::app()->request->baseUrl.'".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('echo Yii::app()...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('echo Yii::app()...')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/echo Yii::...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/echo%20Yii::app()-%3Erequest-%3EbaseUrl.'/images/Application/android.png'
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/application
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/clean.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/clean.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/presentation.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/presentation.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/website_image.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/website_image.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/cost.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/cost.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 15:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Website/contact_image.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Website/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Website/contact_image.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---

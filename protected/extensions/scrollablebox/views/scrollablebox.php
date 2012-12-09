@@ -28,12 +28,11 @@ class="<?php echo $SCROLLABLE_BOX; ?>main" >
 		
 		<div id="<?php echo $SCROLLABLE_BOX; ?>scrollable_indicator<?php echo $this->widget_unique_id; ?>" 
 			class="<?php echo $SCROLLABLE_BOX; ?>scrollable_indicator unselectable" >
-			SCROLLABLE
+			
 		</div>
 	</div>
 	
 	<div id="<?php echo $SCROLLABLE_BOX; ?>footer<?php echo $this->widget_unique_id; ?>" >
-		Footer
 	</div>
 
 </div>

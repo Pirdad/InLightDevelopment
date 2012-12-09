@@ -190,7 +190,7 @@ width: 204px;
 
 .menu_website_selected
 {
-background-color: #0a81b3;
+background-color: #094680;
 color: #5fc1ea;
 }
 
@@ -223,4 +223,35 @@ color: #989696;
 /* Rules below not implemented in browsers yet */
 -o-user-select: none;
 user-select: none;
+}
+
+#welcome_to_inlight {
+	position: relative;
+	width: 660px;
+	height: 145px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	line-height: 200px;
+}
+
+span.welcome_text {
+	font-family: Letter Gothic Std;
+	font-size: 40pt;
+	font-weight: bold;
+	margin-left: 30px;
+	color: #2986de;
+	cursor: default;
+}
+
+span.inlight_text {
+	font-family: Myriad Pro;
+	font-size: 40pt;
+	font-weight: bold;
+	color: #6eb9ff;
+	cursor: default;
+}
+
+img.float_left {
+	float: left;  
 }
