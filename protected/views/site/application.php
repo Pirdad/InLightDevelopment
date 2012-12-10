@@ -12,12 +12,12 @@ $this->pageTitle=Yii::app()->name . ' - Application Development';
 		</div>
 	</div>
 	<div id="right_column">
-		<?php 
+		<?php
 		$html_application_content =
 <<<HTML
 <div id="article_android">
 Android is being used by millions of people around the
-world as it is becoming more and more popular. It is a 
+world as it is becoming more and more popular. It is a
 great platform because it supports a lot of smart features.
 There are more than 10 device manufactureres like Samsung,
 LG, and Acer that choose Android as their Operating System.
@@ -34,9 +34,9 @@ to get in touch with us.
 Planning
 <br><br>
 
-We would sit with you and define requirements 
-for the application. This would normally be 
-converted to features. Also, it helps to 
+We would sit with you and define requirements
+for the application. This would normally be
+converted to features. Also, it helps to
 define scopes for application.
 </div>
 HTML;
@@ -47,7 +47,6 @@ HTML;
 			ScrollableBox::$SCROLLBAR_CONTAINER_WIDTH => 18,
 			ScrollableBox::$SCROLLBAR_WIDTH => 10,
 			ScrollableBox::$SCROLLBAR_COLOR => '#a4ca39',
-			ScrollableBox::$HTML_HEADER_CONTENT => $header_website_content,
 			ScrollableBox::$HEADER_VISIBILITY => true,
 			ScrollableBox::$FOOTER_VISIBILITY => false,
 			ScrollableBox::$HTML_CONTENT => $html_application_content,
