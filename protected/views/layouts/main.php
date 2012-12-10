@@ -75,10 +75,10 @@ include_once 'menu.php';
 			<div id="mainmenu" class="unselectable">
 				<div id="menu_home" class="menu_item unselectable menu_unselected" onclick="redirectToPage('<?php echo getButtonUrl('home'); ?>');">
 					Home
-				</div><div id="menu_application" class="menu_item unselectable menu_unselected" onclick="redirectToPage('<?php echo getButtonUrl('application'); ?>');">
-					Application
 				</div><div id="menu_website" class="menu_item unselectable menu_unselected" onclick="redirectToPage('<?php echo getButtonUrl('website'); ?>');">
 					Website
+				</div><div id="menu_application" class="menu_item unselectable menu_unselected" onclick="redirectToPage('<?php echo getButtonUrl('application'); ?>');">
+					Application
 				</div><div id="menu_design" class="menu_item unselectable menu_unselected" onclick="redirectToPage('<?php echo getButtonUrl('design'); ?>');">
 					Design
 				</div><!--<div>

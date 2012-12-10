@@ -11,19 +11,19 @@ $img_globe_brush = $base_url."/images/design/globe_brush.png";
 <div id="page_design_bg">
 	<div id="left_column">
 		<h1>Web &#38; Commercial Design</h1>
-		<div id="img_android">
+		<div id="img_design">
 			<img src="<?php echo $img_design_img ?>" alt="Android Application Development" />
 		</div>
 	</div>
 	<div id="right_column">
 		<?php
-		$html_application_content =
+		$html_design_content =
 <<<HTML
 <div id="article_android">
-<h1>Application Design</h1>
-<div></div>
-<img id ='img_phone_brush' class="floatLeft" width="60px" src="$img_phon_brush" alt="Love Google Android" />
+
+<h4>Application Design</h4>
 <p>
+<img class="floatLeft" width="60px" src="$img_phon_brush" alt="Love Google Android" />
 Aproximetly a decade ago, design was not as important
 as the functionality of the application. This was due to
 the beginning of technology as it was still in it is youth.
@@ -33,18 +33,14 @@ We understand that if the application is not designed well,
 it will not be used as much. Having said that, we focus in
 this area as much as we can in order to perfect every pixel
 that you see on the screen, so your user feels welcomed.
-
 If you provide a service to people that could potentially be
 converted to an Android Application, please don't hesitate to
 get in touch with <a href="$base_url/site/contact">us</a>.
 </p>
 
-<h1>Website Design</h1>
-
-<img id ='img_globe_brush' class="floatLeft" width="60px" src="$img_globe_brush" alt="Google Android Application Ideas" />
-
+<h4>Website Design</h4>
 <p>
-
+<img class="floatLeft" width="60px" src="$img_globe_brush" alt="Google Android Application Ideas" />
 Websites are there to be your presentation. Now a days,
 who even looks at an old boring website that is full of text
 with minimal number of images, not to mention poor
@@ -63,10 +59,10 @@ HTML;
 			ScrollableBox::$WIDGET_HEIGHT => 370,
 			ScrollableBox::$SCROLLBAR_CONTAINER_WIDTH => 18,
 			ScrollableBox::$SCROLLBAR_WIDTH => 10,
-			ScrollableBox::$SCROLLBAR_COLOR => '#a4ca39',
+			ScrollableBox::$SCROLLBAR_COLOR => '#ffc23f',
 			ScrollableBox::$HEADER_VISIBILITY => true,
 			ScrollableBox::$FOOTER_VISIBILITY => false,
-			ScrollableBox::$HTML_CONTENT => $html_application_content,
+			ScrollableBox::$HTML_CONTENT => $html_design_content,
 			ScrollableBox::$SCROLLABLE_INDICATOR_VISIBILITY => false,
 		));
 		?>
