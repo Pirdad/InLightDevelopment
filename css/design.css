@@ -1,0 +1,84 @@
+@CHARSET "ISO-8859-1";
+
+#page_design_bg {
+	position: relative;
+	background-color: #a56003;
+	width: 100%;
+	height: 100%;
+}
+
+#left_column {
+	position: absolute;
+	width: 54%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+#right_column {
+	position: absolute;
+	width: 46%;
+	height: 100%;
+	right: 0px;
+	top: 24px;
+	padding: 1px;
+	color: #eedebc;
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+
+#img_design {
+	position: relative;
+	width: 157px;
+	top: 0px;
+	left: 20px;
+}
+
+#article_website {
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+h1 {
+	font-family: Letter Gothic Std;
+	font-size: 24pt;
+	color: #ffc23f;
+}
+
+h4 {
+	font-family: Letter Gothic Std;
+	font-size: 16pt;
+	color: #ffc23f;
+}
+
+a:link {
+	color: #ffc23f;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #ffc23f;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ffc23f;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #ffc23f;
+	text-decoration: underline;
+}
+
+img.floatLeft {
+	float: left;
+	margin-right: 20px;
+}
+
+img.floatRight {
+	float: right;
+	margin: 4px;
+}

@@ -4,30 +4,35 @@ $SCROLLABLE_BOX = "scrollable_box_";
 
 ?>
 
-<div id="<?php echo $SCROLLABLE_BOX; ?>main" >
+<div id="<?php echo $SCROLLABLE_BOX; ?>main<?php echo $this->widget_unique_id; ?>"
+class="<?php echo $SCROLLABLE_BOX; ?>main" >
 
-	<div id="<?php echo $SCROLLABLE_BOX; ?>title" >
-		Title
+	<div id="<?php echo $SCROLLABLE_BOX; ?>title<?php echo $this->widget_unique_id; ?>" 
+		class="<?php echo $SCROLLABLE_BOX; ?>title" >
+		<?php echo $this->html_header_content; ?>
 	</div>
 	
-	<div id="<?php echo $SCROLLABLE_BOX; ?>content_container" >
+	<div id="<?php echo $SCROLLABLE_BOX; ?>content_container<?php echo $this->widget_unique_id; ?>"
+	class="<?php echo $SCROLLABLE_BOX; ?>content_container" >
 	
-		<div id="<?php echo $SCROLLABLE_BOX; ?>content" >
-				<p>Lorem   ipsum   dolor   sit   amet,   consectet
-				adipiscing   elit. Maecenas    feugiat j  usto   
-				mauris   commodo    adipiscing. 
-				Fusce ac  diam  sit amet  sem vehicula moles
-				Integer aliquet viverra  metus  euismod temp
-				Proin consequat pellentesque dolor ut biben
-				Duis eget lectus quam. Duis id leo sed justo 
-				aliquet     volutpat.   Mauris    ut l  acus   ege.
-				</p>
+		<div id="<?php echo $SCROLLABLE_BOX; ?>content<?php echo $this->widget_unique_id; ?>"
+		class="<?php echo $SCROLLABLE_BOX; ?>content" >
+				<?php echo $this->html_content; ?>
 		</div>
 		
-		<div id="<?php echo $SCROLLABLE_BOX; ?>scrollbar_container" >
-			<div id="<?php echo $SCROLLABLE_BOX; ?>scrollbar"></div>
+		<div id="<?php echo $SCROLLABLE_BOX; ?>scrollbar_container<?php echo $this->widget_unique_id; ?>"
+		class="<?php echo $SCROLLABLE_BOX; ?>scrollbar_container" >
+			<div id="<?php echo $SCROLLABLE_BOX; ?>scrollbar<?php echo $this->widget_unique_id; ?>"
+			class="<?php echo $SCROLLABLE_BOX; ?>scrollbar" ></div>
 		</div>
+		
+		<div id="<?php echo $SCROLLABLE_BOX; ?>scrollable_indicator<?php echo $this->widget_unique_id; ?>" 
+			class="<?php echo $SCROLLABLE_BOX; ?>scrollable_indicator unselectable" >
+			
+		</div>
+	</div>
 	
+	<div id="<?php echo $SCROLLABLE_BOX; ?>footer<?php echo $this->widget_unique_id; ?>" >
 	</div>
 
 </div>

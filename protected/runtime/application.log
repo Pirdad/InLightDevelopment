@@ -1,0 +1,1630 @@
+2012/10/29 23:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/10/29 23:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/03 09:54:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/03 10:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/03 10:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/03 15:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/03 22:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:25:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:26:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:27:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:27:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:30:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:36:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:46:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:47:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:48:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:49:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:51:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:51:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:52:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:52:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:57:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:58:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 22:59:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/03 23:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img.img".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('img.img')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('img.img')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img.img')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/img.img
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/09 19:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/09 20:11:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/69b6d655/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/69b6d655...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/69b6d655/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/10 15:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scrollablebox.css".' in C:\xampp\htdocs\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('scrollablebox.c...')
+#1 C:\xampp\htdocs\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/InLightDevelopment/scrollablebox.css
+HTTP_REFERER=http://localhost/InLightDevelopment/site/services
+---
+2012/11/10 15:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "scrollablebox.css".' in C:\xampp\htdocs\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('scrollablebox.c...')
+#1 C:\xampp\htdocs\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/InLightDevelopment/scrollablebox.css
+HTTP_REFERER=http://localhost/InLightDevelopment/site/services
+---
+2012/11/17 15:08:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ae72970e/images".' in C:\xampp\htdocs\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/ae72970e...')
+#1 C:\xampp\htdocs\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/InLightDevelopment/assets/ae72970e/images
+HTTP_REFERER=http://localhost/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:16:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/19 21:31:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b420665b/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b420665b...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/b420665b/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/portfolio
+---
+2012/11/20 19:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png3".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png3
+HTTP_REFERER=http://localhost/github/inlightdevelopment/site/services
+---
+2012/11/20 19:52:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png3".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png3
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/11/20 19:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png3".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png3
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/11/20 19:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/inLightDevelopment.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/inLightD...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/inLightDevelopment.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+2012/11/20 20:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1images/Services/development.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('1images/Service...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/1images/Services/development.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/services
+---
+2012/12/08 14:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/index
+---
+2012/12/08 14:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 14:22:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 14:22:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 14:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 14:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 14:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 14:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 14:22:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/undefined
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/undefined
+---
+2012/12/08 15:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/7a27324d/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/7a27324d...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/7a27324d/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/08 15:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/7a27324d/images".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/7a27324d...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/assets/7a27324d/images
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+<<<<<<< HEAD
+2012/12/09 17:30:47 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php:50)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(37): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionApplication()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/application
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php (50)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (37)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/09 17:30:55 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php:50)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(37): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionApplication()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/application
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php (50)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (37)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/09 17:31:11 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php:50)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(37): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionApplication()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/application
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php (50)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (37)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/09 17:31:41 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php:50)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(37): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionApplication()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/application
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php (50)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (37)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/09 17:31:56 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php:50)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(37): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionApplication()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/application
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\application.php (50)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (37)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+=======
+2012/12/09 13:24:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "echo Yii::app()->request->baseUrl.'".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('echo Yii::app()...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('echo Yii::app()...')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/echo Yii::...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/echo%20Yii::app()-%3Erequest-%3EbaseUrl.'/images/Application/android.png'
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/application
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/clean.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/clean.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/presentation.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/presentation.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/website_image.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/website_image.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 14:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/cost.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/cost.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/website
+---
+2012/12/09 15:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Website/contact_image.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Website/...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Website/contact_image.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/contact
+---
+>>>>>>> 04fd8b9d1629491eacdcc59485aafcc0d4355399
+2012/12/10 02:13:52 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\website.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionWebsite()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/website
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\website.php (63)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:14:09 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\contact.php:51)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(73): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/contact
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\contact.php (51)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (73)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:15:06 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\contact.php:51)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(73): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/contact
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\contact.php (51)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (73)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:15:08 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\contact.php:51)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(73): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/contact
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\contact.php (51)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (73)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:15:39 [error] [php] Undefined variable: header_website_content (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\website.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionWebsite()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/website
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\website.php (63)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:19:21 [error] [php] Undefined variable: img_android_img (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (10)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:20:21 [error] [php] Undefined variable: contact_image (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (10)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:20:57 [error] [php] Undefined variable: contact_image (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (10)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:22:08 [error] [php] Undefined variable: img_android_img (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (10)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:23:31 [error] [php] Undefined variable: img_android_img (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (10)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:23:34 [error] [php] Undefined variable: img_android_img (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (10)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:24:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "this is image".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('this is image')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('this is image')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/this is im...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/this%20is%20image
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "this is image".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('this is image')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('this is image')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/this is im...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/this%20is%20image
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "this is image".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('this is image')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('this is image')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/this is im...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/this%20is%20image
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "this is image".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('this is image')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('this is image')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/this is im...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/this%20is%20image
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "this is image".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('this is image')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('this is image')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/this is im...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/this%20is%20image
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "this is image".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('this is image')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('this is image')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/this is im...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/this%20is%20image
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "this is image".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(271): CController->missingAction('this is image')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): CController->run('this is image')
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('site/this is im...')
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/site/this%20is%20image
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:38:12 [error] [php] Undefined variable: img_android (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:87)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (87)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/InLightDevelopment".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/InLightDevelopment
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:38:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/InLightDevelopment".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/InLightDevelopment
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/InLightDevelopment".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/InLightDevelopment
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/InLightDevelopment".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/InLightDevelopment
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:42:21 [error] [php] Undefined variable: img_InLightDevelopment (C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\actions\CInlineAction.php(50): SiteController->actionDesign()
+#4 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/InLightDevelopment/site/design
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\views\site\design.php (36)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\GitHub\InLightDevelopment\index.php (13)
+2012/12/10 02:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/phon_brush.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/phon_brush.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/phon_brush.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/phon_brush.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:43:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/phon_brush.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/phon_brush.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---
+2012/12/10 02:43:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Application/phon_brush.png".' in C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\web\CWebApplication.php(142): CWebApplication->runController('images/Applicat...')
+#1 C:\xampp\htdocs\GitHub\InLightDevelopment\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\InLightDevelopment\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/InLightDevelopment/images/Application/phon_brush.png
+HTTP_REFERER=http://localhost/GitHub/InLightDevelopment/site/design
+---

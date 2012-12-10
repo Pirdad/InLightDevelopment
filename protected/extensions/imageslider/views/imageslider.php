@@ -37,17 +37,17 @@ echo "<input type='hidden' id='".$IMG_SLIDER_ID.ImageSlider::$TIMER_VALUE."' val
 
 <div id="img_slider_container">
 	<div id="img_slider_back_btn" class="slider_button unselectable_box" ></div>
-	
+
 	<div id="img_slider_image_holder" class="unselectable_box" >
-	
-	<?php 
+
+	<?php
 		for ($i=0; $i<count($this->images); $i++) {
-			
+
 			$img_url = $this->images[$i];
-			echo "<img id='".$IMG_SLIDER_ID."$i' src='$img_url' />";
+			echo "<img id='".$IMG_SLIDER_ID."$i' src='$img_url' alt='Website Apllication' />";
 		}
 	?>
 	</div>
-	
+
 	<div id="img_slider_forward_btn" class="slider_button unselectable_box" ></div>
 </div>
