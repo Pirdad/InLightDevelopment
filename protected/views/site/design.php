@@ -1,13 +1,18 @@
 <?php
 Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl."/css/design.css");
 $this->pageTitle=Yii::app()->name . ' - Design';
+$base_url = Yii::app()->request->baseUrl;
+$img_design_img = $base_url."/images/design/design_image.png";
+$img_phon_brush = $base_url."/images/design/phone_brush.png";
+$img_globe_brush = $base_url."/images/design/globe_brush.png";
+
 ?>
 
 <div id="page_design_bg">
 	<div id="left_column">
-		<h1>Android Application Development</h1>
+		<h1>Web &#38; Commercial Design</h1>
 		<div id="img_android">
-			<img src="<?php echo Yii::app()->request->baseUrl."/images/Application/android.png" ?>" alt="Android Application Development" />
+			<img src="<?php echo $img_design_img ?>" alt="Android Application Development" />
 		</div>
 	</div>
 	<div id="right_column">
@@ -15,28 +20,41 @@ $this->pageTitle=Yii::app()->name . ' - Design';
 		$html_application_content =
 <<<HTML
 <div id="article_android">
-Android is being used by millions of people around the
-world as it is becoming more and more popular. It is a
-great platform because it supports a lot of smart features.
-There are more than 10 device manufactureres like Samsung,
-LG, and Acer that choose Android as their Operating System.
-<br><br>
-Having said that, we prepared ourselves for the future.
-Inlight can now build great Android Applications that can be
-used by millions of people. We have the necessary skills to
-plan, design, build and publish your Android Application.
-<br><br>
-If you provide a service to people that could potentially be
-converted to an Android Application, please don't hesitate
-to get in touch with us.
-<br><br>
-Planning
-<br><br>
+<h1>Application Design</h1>
+<div></div>
+<img id ='img_phone_brush' class="floatLeft" width="60px" src="$img_phon_brush" alt="Love Google Android" />
+<p>
+Aproximetly a decade ago, design was not as important
+as the functionality of the application. This was due to
+the beginning of technology as it was still in it is youth.
+However, now everyone can agree that design is as
+important and perhaps a little more so.
+We understand that if the application is not designed well,
+it will not be used as much. Having said that, we focus in
+this area as much as we can in order to perfect every pixel
+that you see on the screen, so your user feels welcomed.
 
-We would sit with you and define requirements
-for the application. This would normally be
-converted to features. Also, it helps to
-define scopes for application.
+If you provide a service to people that could potentially be
+converted to an Android Application, please don't hesitate to
+get in touch with <a href="$base_url/site/contact">us</a>.
+</p>
+
+<h1>Website Design</h1>
+
+<img id ='img_globe_brush' class="floatLeft" width="60px" src="$img_globe_brush" alt="Google Android Application Ideas" />
+
+<p>
+
+Websites are there to be your presentation. Now a days,
+who even looks at an old boring website that is full of text
+with minimal number of images, not to mention poor
+layout. What are the rules of a powerpoint presentation as
+we all learned in school, 1: Concise and minimal text,
+2: meaningful pictures, and 3: Simple layout. Of course,
+powerpoint have it is limitations so you can not really be
+creative enough, but that is not the case with websites.
+</p>
+
 </div>
 HTML;
 		Yii::import("ext.scrollablebox.ScrollableBox", true);
