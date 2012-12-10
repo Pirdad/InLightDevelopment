@@ -1,87 +1,60 @@
 <?php
-/* @var $this SiteController */
-/* @var $model ContactForm */
-/* @var $form CActiveForm */
+Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl."/css/contact.css");
+$this->pageTitle = "InLight - Contact Us";
 
-$this->pageTitle=Yii::app()->name . ' - Contact Us';
-$this->breadcrumbs=array(
-	'Contact',
-);
+$base_url = Yii::app()->request->baseUrl;
+$contact_image = $base_url."/images/Contact/contact_image.png";
+$ic_office = $base_url."/images/Contact/ic_office.png";
+$ic_email = $base_url."/images/Contact/ic_email.png";
+$ic_phone = $base_url."/images/Contact/ic_phone.png";
 ?>
 
-<h1>Contact Us</h1>
+<div id="page_contact_bg">
+	<div id="left_column">
+		<h1>Contact Us</h1>
+		<div id="img_contact">
+			<img src="<?php echo $contact_image ?>" alt="Contact Inlight Development" />
+		</div>
+	</div>
+	<div id="right_column">
+		<?php
+		$html_contact_content =
+<<<HTML
+<div id="article_contact">
 
-<h4>This page is under construction and coming soon</h4>
+<iframe width="425" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?hl=en&amp;q=107+-+1560+Brimley+Rd.+Toronto+ontario&amp;ie=UTF8&amp;hq=&amp;hnear=1560+Brimley+Rd,+Toronto,+Toronto+Division,+Ontario+M1P+2X9&amp;gl=ca&amp;ll=43.770528,-79.261637&amp;spn=0.012582,0.033023&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ca/maps?hl=en&amp;q=107+-+1560+Brimley+Rd.+Toronto+ontario&amp;ie=UTF8&amp;hq=&amp;hnear=1560+Brimley+Rd,+Toronto,+Toronto+Division,+Ontario+M1P+2X9&amp;gl=ca&amp;ll=43.770528,-79.261637&amp;spn=0.012582,0.033023&amp;t=m&amp;z=14&amp;source=embed" text-align:left">View Larger Map</a></small>
 
-<?php if(Yii::app()->user->hasFlash('contact')): ?>
-
-<div class="flash-success">
-	<?php echo Yii::app()->user->getFlash('contact'); ?>
+<div id="contact_pars">
+<p class="contact_par">
+<img class="floatLeft" width="24px" src="$ic_office" alt="Cost Effective" />
+Unit 107 - 1560 Brimley Rd. Toronto, ON
+</p>
+<p class="contact_par">
+<img class="floatLeft" width="24px" src="$ic_email" alt="Cost Effective" />
+najeeb@inlightdevelopment.com
+</p>
+<p class="contact_par">
+<img class="floatLeft" width="24px" src="$ic_phone" alt="Cost Effective" />
+(647) 703 - 6603
+</p>
 </div>
 
-<?php else: ?>
-
-<p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-</p>
-
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'contact-form',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name'); ?>
-		<?php echo $form->error($model,'name'); ?>
+</div>
+HTML;
+		Yii::import("ext.scrollablebox.ScrollableBox", true);
+		$this->widget("ext.scrollablebox.ScrollableBox", array(
+			ScrollableBox::$WIDGET_UNIQUE_ID => "_1",
+			ScrollableBox::$WIDGET_HEIGHT => 370,
+			ScrollableBox::$SCROLLBAR_CONTAINER_WIDTH => 18,
+			ScrollableBox::$SCROLLBAR_WIDTH => 10,
+			ScrollableBox::$SCROLLBAR_COLOR => '#989696',
+			ScrollableBox::$HEADER_VISIBILITY => true,
+			ScrollableBox::$FOOTER_VISIBILITY => false,
+			ScrollableBox::$HTML_CONTENT => $html_contact_content,
+			ScrollableBox::$SCROLLABLE_INDICATOR_VISIBILITY => false,
+		));
+		?>
 	</div>
+</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email'); ?>
-		<?php echo $form->error($model,'email'); ?>
-	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'subject'); ?>
-		<?php echo $form->textField($model,'subject',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'subject'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'body'); ?>
-		<?php echo $form->textArea($model,'body',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'body'); ?>
-	</div>
-
-	<?php if(CCaptcha::checkRequirements()): ?>
-	<div class="row">
-		<?php echo $form->labelEx($model,'verifyCode'); ?>
-		<div>
-		<?php $this->widget('CCaptcha'); ?>
-		<?php echo $form->textField($model,'verifyCode'); ?>
-		</div>
-		<div class="hint">Please enter the letters as they are shown in the image above.
-		<br/>Letters are not case-sensitive.</div>
-		<?php echo $form->error($model,'verifyCode'); ?>
-	</div>
-	<?php endif; ?>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
-	</div>
-
-<?php $this->endWidget(); ?>
-
-</div><!-- form -->
-
-<?php endif; ?>

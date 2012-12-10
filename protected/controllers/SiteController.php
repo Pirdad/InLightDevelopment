@@ -32,19 +32,19 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 	
-	public function actionBiography() {
+	public function actionApplication() {
 		
-		$this->render('biography');
+		$this->render('application');
 	}
 	
-	public function actionServices() {
+	public function actionWebsite() {
 		
-		$this->render('services');
+		$this->render('website');
 	}
 	
-	public function actionPortfolio() {
+	public function actionDesign() {
 		
-		$this->render('portfolio');
+		$this->render('design');
 	}
 
 	/**

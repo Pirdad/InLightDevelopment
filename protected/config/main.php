@@ -7,7 +7,10 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Create Website Application, Build Website Application |Design Website Application |
+	Best Website Application in Toronto | Website builder for Small Business  |
+	Good Website Developer and design | Toronto Best web Developer | Website Design services  |
+	Website application and design service  | Professional Website Developer in Toronto',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -37,7 +40,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName' => false,
@@ -47,7 +50,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		
+
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),

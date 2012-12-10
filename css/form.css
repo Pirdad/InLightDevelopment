@@ -36,6 +36,7 @@
 
 div.form
 {
+	padding:10px;
 }
 
 div.form input,
@@ -43,6 +44,7 @@ div.form textarea,
 div.form select
 {
 	margin: 0.2em 0 0.5em 0;
+	padding: 5px;
 }
 
 div.form fieldset
